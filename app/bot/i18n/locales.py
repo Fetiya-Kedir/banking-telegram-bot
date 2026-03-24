@@ -57,7 +57,42 @@ MESSAGES = {
     "BACK": {
         "en": "⬅️ Back",
         "am": "⬅️ ተመለስ",
-        "om": "⬅️ Duubatti",
+        "om": "⬅️ Duubatti Deebi'aa",
+    },
+    "FAQ_CATEGORIES_TITLE": {
+        "en": "❓ Frequently Asked Questions",
+        "am": "❓ ተደጋጋሚ ጥያቄዎች",
+        "om": "❓ Gaaffilee Irra Deddeebian",
+    },
+    "FAQ_CATEGORIES_PROMPT": {
+        "en": "Please choose a category.",
+        "am": "እባክዎ የምድብ አይነት ይምረጡ፡",
+        "om": "Maaloo gosa ramaddii filadhaa:",
+    },
+    "FAQ_QUESTIONS_PROMPT": {
+        "en": "Please choose a question.",
+        "am": "እባክዎ ጥያቄ ይምረጡ፡",
+        "om": "Maaloo gaaffii filadhaa:",
+    },
+    "FAQ_ANSWER_TITLE": {
+        "en": "Answer",
+        "am": "መልስ",
+        "om": "Deebii",
+    },
+    "FAQ_BACK_TO_CATEGORIES": {
+        "en": "⬅️ FAQ Categories",
+        "am": "⬅️ ወደ ጥያቄ ምድቦች ተመለስ",
+        "om": "⬅️ Gara Ramaddii Gaaffiitti",
+    },
+    "FAQ_EMPTY_CATEGORY": {
+        "en": "No questions are available in this category yet.",
+        "am": "በዚህ ምድብ ውስጥ እስካሁን የተካተቱ ጥያቄዎች የሉም።",
+        "om": "Ramaddii kana keessatti gaaffiin ammaaf hin jiru.",
+    },
+    "FAQ_NOT_FOUND": {
+        "en": "The requested FAQ item was not found.",
+        "am": "የተፈለገው መረጃ አልተገኘም።",
+        "om": "Odeeffannoon FAQ barbaadame hin argamne.",
     },
     "FEATURE_BRANCH_PLACEHOLDER": {
         "en": "Branch locator is coming in the next phase.",

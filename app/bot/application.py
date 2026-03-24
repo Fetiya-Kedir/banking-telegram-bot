@@ -10,11 +10,17 @@ from telegram.ext import (
     ContextTypes,
 )
 
+from app.bot.handlers.faq import handle_faq_action
 from app.bot.handlers.language import handle_language_selection
 from app.bot.handlers.menu import handle_menu_action
 from app.bot.handlers.navigation import handle_navigation_action
 from app.bot.handlers.start import start_command
-from app.config.constants import LANGUAGE_CALLBACK_PREFIX, MENU_CALLBACK_PREFIX, NAV_CALLBACK_PREFIX
+from app.config.constants import (
+    FAQ_CALLBACK_PREFIX,
+    LANGUAGE_CALLBACK_PREFIX,
+    MENU_CALLBACK_PREFIX,
+    NAV_CALLBACK_PREFIX,
+)
 from app.config.settings import get_settings
 from app.db.session import AsyncSessionLocal, close_db, init_db
 
@@ -54,6 +60,12 @@ def build_application(bot_token: str) -> Application:
         CallbackQueryHandler(
             handle_language_selection,
             pattern=rf"^{LANGUAGE_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
+            handle_faq_action,
+            pattern=rf"^{FAQ_CALLBACK_PREFIX}",
         )
     )
     application.add_handler(
