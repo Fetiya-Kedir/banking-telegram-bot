@@ -1,0 +1,1034 @@
+{
+  "branches": [
+    {
+      "id": "aba_koran",
+      "name": "ABA-KORAN",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Gamoo Khlid Ahmed, lafa jalaa",
+      "plus_code": "2PQR+6M2 Addis Ababa",
+      "latitude": 9.038003,
+      "longitude": 38.741628
+    },
+    {
+      "id": "abajifar",
+      "name": "ABAJIFAR",
+      "city": "Finfinnee",
+      "region": "Oromiyaa",
+      "address": "Fuurii, Giddu-gala gabaa Luulii, lafa jalaa",
+      "plus_code": "XM2P+HV2 Addis Ababa",
+      "latitude": 8.951378,
+      "longitude": 38.687128
+    },
+    {
+      "id": "abdi_nonno",
+      "name": "ABDI-NONNO",
+      "city": "Finfinnee",
+      "region": "Oromiyaa",
+      "address": "Finfinnee, Ashewaa Meeda, Fuuldura Shakaa Mool",
+      "plus_code": "VQ9P+PR6, Addis Ababa",
+      "latitude": 8.869254,
+      "longitude": 38.787003
+    },
+    {
+      "id": "abinet_hira",
+      "name": "ABINET-HIRA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Naannoo Josshansen fi maatii",
+      "plus_code": "2P9P+34H Addis Ababa",
+      "latitude": 9.017631,
+      "longitude": 38.735258
+    },
+    {
+      "id": "adam_minara_branch",
+      "name": "Adam Minara Branch",
+      "city": "Adaamaa",
+      "region": "Oromiyaa",
+      "address": "Naannoo Oromiyaa",
+      "plus_code": "G7RH+VJ2 Adama",
+      "latitude": 8.542128,
+      "longitude": 39.279003
+    },
+    {
+      "id": "adama",
+      "name": "ADAMA",
+      "city": "Adaamaa",
+      "region": "Oromiyaa",
+      "address": "Adaamaa, kebele badettu, Giddu-gala gabaa Cercer, lafa jalaa",
+      "plus_code": "G7XC+39J Adama",
+      "latitude": 8.547632,
+      "longitude": 39.270878
+    },
+    {
+      "id": "adama_tebarek",
+      "name": "Adama Tebarek",
+      "city": "Adaamaa",
+      "region": "Oromiyaa",
+      "address": "Naannoo Oromiyaa, Magaalaa Adaamaa, Sa'ar Teeraa",
+      "plus_code": "G7W8+CMG Adama",
+      "latitude": 8.546006,
+      "longitude": 39.266631
+    },
+    {
+      "id": "adama_nur",
+      "name": "ADAMA-NUR",
+      "city": "Adaamaa",
+      "region": "Oromiyaa",
+      "address": "Adaamaa, Naannoo Firaankoo, Fuuldura gamoo Mohaammad Nuur, lafa jalaa",
+      "plus_code": "G7R7+8HJ Adama",
+      "latitude": 8.540757,
+      "longitude": 39.263878
+    },
+    {
+      "id": "agaro_branch",
+      "name": "Agaro Branch",
+      "city": "Aggaaroo",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Godina Jimmaa Kibba Lixaa",
+      "plus_code": "VH4M+3XH Agaro",
+      "latitude": 7.855131,
+      "longitude": 36.584883
+    },
+    {
+      "id": "agena_nur_banch",
+      "name": "Agena Nur Banch",
+      "city": "Guraagee",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Guraagee",
+      "plus_code": "42P5+J58",
+      "latitude": 9.136504,
+      "longitude": 39.007881
+    },
+    {
+      "id": "akaki_rahman_branch",
+      "name": "Akaki-Rahman Branch",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Bulchiinsa Magaalaa Finfinnee, Kutaa Magaalaa Aqaaqii Qallittii, Woreda 03 Gabaa Aqaaqii",
+      "plus_code": "VQ9P+PR6 Addis Ababa",
+      "latitude": 8.869254,
+      "longitude": 38.787003
+    },
+    {
+      "id": "al_qaswa",
+      "name": "AL_QASWA",
+      "city": "Jigjigaa",
+      "region": "Somaalee",
+      "address": "Magaalaa Jigjigaa, DX-MALL, lafa jalaa",
+      "plus_code": "9Q2X+2QQ, Jijiga",
+      "latitude": 9.350007,
+      "longitude": 42.799383
+    },
+    {
+      "id": "alemgena",
+      "name": "ALEMGENA",
+      "city": "Alamagannaa",
+      "region": "Oromiyaa",
+      "address": "Alamagannaa, Naannoo Adddis Saffar",
+      "plus_code": "WMM7+CHH Alem Gena",
+      "latitude": 8.933506,
+      "longitude": 38.663883
+    },
+    {
+      "id": "alif",
+      "name": "ALIF",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Boolee, Wolloo Saffar (Gamoo Gaaraad), lafa jalaa",
+      "plus_code": "ZamZam Bank, XQVF+9W2, Ethio China St, Addis Ababa",
+      "latitude": 8.993378,
+      "longitude": 38.774753
+    },
+    {
+      "id": "amin_branch",
+      "name": "Amin Branch",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Kutaa Magaalaa Nifaas Silk Laaftoo, Bisiraat Gabri'eel, Viiktoriyaa Taawar",
+      "plus_code": "XPWH+4M6, S Africa St, Addis Ababa",
+      "latitude": 8.995254,
+      "longitude": 38.729128
+    },
+    {
+      "id": "anwar_mesjid",
+      "name": "ANWAR MESJID",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Masjiida Anwaar, Fuuldura masjiida Anwaar, Gamoo Waajiid abba fooqii 3ffaa",
+      "plus_code": "2PMW+P6J Addis Ababa",
+      "latitude": 9.034257,
+      "longitude": 38.745503
+    },
+    {
+      "id": "arefa",
+      "name": "AREFA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Kolfee, Giddu-gala gabaa Efooyitaa, abba fooqii 2ffaa",
+      "plus_code": "2PR7+MCG Addis Ababa",
+      "latitude": 9.041631,
+      "longitude": 38.713506
+    },
+    {
+      "id": "assela",
+      "name": "ASSELA",
+      "city": "Asallaa",
+      "region": "Oromiyaa",
+      "address": "Gabaa Oda, Haji Tura cherka cherk bukkee, Gamoo Saamu'eel lafa jalaa",
+      "plus_code": "X44J+VCW Asela",
+      "latitude": 8.957133,
+      "longitude": 39.131006
+    },
+    {
+      "id": "atlas_amana",
+      "name": "ATLAS-AMANA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Atilaas, Bukkee ibsaa tiraafikaa, Gamoo Laandmaark lafa jalaa",
+      "plus_code": "2Q3H+HWR",
+      "latitude": 9.003883,
+      "longitude": 38.779753
+    },
+    {
+      "id": "aweday",
+      "name": "AWEDAY",
+      "city": "Awwadaay",
+      "region": "Harargee Bahaa",
+      "address": "Naannoo Oromiyaa, Godina Harargee Bahaa, Magaalaa Awwadaay, Naannoo raabsa kookaa",
+      "plus_code": "6HX4925W+WH",
+      "latitude": 9.359753,
+      "longitude": 42.046378
+    },
+    {
+      "id": "ayer_tena",
+      "name": "AYER TENA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Ayyer Teenaa, Naannoo Masjiida Ansaar, Gamoo lafa jalaa",
+      "plus_code": "XMJV+VQ6, Addis Ababa",
+      "latitude": 8.982129,
+      "longitude": 38.694378
+    },
+    {
+      "id": "bahir_dar",
+      "name": "BAHIR DAR",
+      "city": "Baahir Daar",
+      "region": "Amaaraa",
+      "address": "Baahir Daar, Manaahariyaa moofaa, Gamoo Haajii Husseen Eebiree",
+      "plus_code": "H9QQ+JFV Bahir Dar",
+      "latitude": 11.589008,
+      "longitude": 37.38863
+    },
+    {
+      "id": "balcha_selam",
+      "name": "BALCHA SELAM",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Bulchiinsa Magaalaa Finfinnee, Kutaa Magaalaa Lidataa, Naannoo Hospitaala Baalchaa",
+      "plus_code": "6GXW2P7Q+92",
+      "latitude": 9.013378,
+      "longitude": 38.737503
+    },
+    {
+      "id": "bale_robe_branch",
+      "name": "BALE ROBE BRANCH",
+      "city": "Roobee",
+      "region": "Oromiyaa",
+      "address": "Baalee Roobee, Naannoo Giriin Kaaffee",
+      "plus_code": "42F3+89P Robe",
+      "latitude": 7.123257,
+      "longitude": 40.003381
+    },
+    {
+      "id": "bati",
+      "name": "BATI",
+      "city": "Baatii",
+      "region": "Naannoo Amaaraa, Zoonii Addaa Oromiyaa",
+      "address": "Naannoo Manaahariyaa, Fuuldura Miinaa Kaaffee",
+      "plus_code": "52RC+854 Bati",
+      "latitude": 9.190753,
+      "longitude": 39.020381
+    },
+    {
+      "id": "beyetel_al_aqsa",
+      "name": "Beyetel Al AQSA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Beete'eel Meetira 40",
+      "plus_code": "2M4J+XXJ Addis Ababa",
+      "latitude": 9.007382,
+      "longitude": 38.682378
+    },
+    {
+      "id": "bole_bulbula",
+      "name": "BOLE BULBULA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Boolee, Boolee Bulbulaa",
+      "plus_code": "XQ2P+RM7 Addis Ababa",
+      "latitude": 8.952004,
+      "longitude": 38.78663
+    },
+    {
+      "id": "bule_hra_branch",
+      "name": "Bule-Hra Branch",
+      "city": "Bulee Horaa",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Godina Gujii, Magaalaa Bulee Horaa",
+      "plus_code": "J6PQ+47M Bule Hora",
+      "latitude": 8.635257,
+      "longitude": 39.23813
+    },
+    {
+      "id": "butajera",
+      "name": "BUTAJERA",
+      "city": "Buttaajiraa",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Buttaajiraa, Kebele 05 Naannoo Manaahariyaa, Gamoo Amiir lafa jalaa",
+      "plus_code": "498G+24J Butajira",
+      "latitude": 8.115007,
+      "longitude": 38.375253
+    },
+    {
+      "id": "chiro_branch",
+      "name": "Chiro Branch",
+      "city": "Ciroo",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Magaalaa Ciroo",
+      "plus_code": "Chiro, 3VQ6+GWW, Asbe Teferi",
+      "latitude": 9.088758,
+      "longitude": 40.862256
+    },
+    {
+      "id": "dessie",
+      "name": "DESSIE",
+      "city": "Dasee",
+      "region": "Amaaraa",
+      "address": "Amaaraa, Dasee, Naannoo Piyaassa, Gamoo gloobaal moofaa lafa jalaa",
+      "plus_code": "7G3X4J8J+6Q",
+      "latitude": 11.115503,
+      "longitude": 39.631878
+    },
+    {
+      "id": "dessie_arab_genda",
+      "name": "DESSIE ARAB GENDA",
+      "city": "Dasee",
+      "region": "Amaaraa",
+      "address": "Masjiida Araba Gandaa bukkee, Fuuldura Manaahariyaa",
+      "plus_code": "4JCM+9GX Dese",
+      "latitude": 11.120883,
+      "longitude": 39.633758
+    },
+    {
+      "id": "dessie_arada",
+      "name": "DESSIE-ARADA",
+      "city": "Dasee",
+      "region": "Amaaraa",
+      "address": "Naannoo Amaaraa, Magaalaa Dasee, Kutaa Magaalaa Dasee Aradaa, Giddu-gala gabaa Edget abba fooqii 1ffaa",
+      "plus_code": "4J7P+7GG Dese",
+      "latitude": 11.113131,
+      "longitude": 39.636256
+    },
+    {
+      "id": "dilla",
+      "name": "DILLA",
+      "city": "Diillaa",
+      "region": "Itoophiyaa Kibbaa",
+      "address": "Diillaa, Amstangaa mangad, Fuuldura masjiida Bilaal",
+      "plus_code": "C876+34R Dila",
+      "latitude": 6.412633,
+      "longitude": 38.310253
+    },
+    {
+      "id": "dire_dawa",
+      "name": "Dire Dawa",
+      "city": "Dirree Dhawaa",
+      "region": "Dirree Dhawaa",
+      "address": "Dirree Dhawaa kebele 06, Gamoo Dr. Selhaadiin lafa jalaa",
+      "plus_code": "6HX3HVQ8+V3",
+      "latitude": 9.589628,
+      "longitude": 41.865128
+    },
+    {
+      "id": "diredawa_sabian_branch",
+      "name": "Diredawa Sabian Branch",
+      "city": "Dirree Dhawaa",
+      "region": "Dirree Dhawaa",
+      "address": "Dirree Dhawaa, Saabiyaani",
+      "plus_code": "JR3Q+4HG Dire Dawa",
+      "latitude": 9.602756,
+      "longitude": 41.838881
+    },
+    {
+      "id": "diredawa_ashewa",
+      "name": "DIREDAWA-ASHEWA",
+      "city": "Dirree Dhawaa",
+      "region": "Dirree Dhawaa",
+      "address": "Ashewaa, Gamoo Hassan Aydoraa",
+      "plus_code": "HVXC+P72 Dire Dawa",
+      "latitude": 9.599253,
+      "longitude": 41.870628
+    },
+    {
+      "id": "dodola_huda",
+      "name": "DODOLA-HUDA",
+      "city": "Dodolaa",
+      "region": "Oromiyaa",
+      "address": "Naannoo Oromiyaa, Godina Arsii Lixaa, Magaalaa Dodolaa, kebele meedaawuubee",
+      "plus_code": "X5GJ+V6G Dodola",
+      "latitude": 6.977186,
+      "longitude": 39.180577
+    },
+    {
+      "id": "fateh_hossana",
+      "name": "FATEH-HOSSANA",
+      "city": "Hosaanaa",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Naannoo Itoophiyaa Giddu-galaa, Zoonii Haadiyaa, Magaalaa Hosaanaa, Bukkee Hikiimaa Suuppermaarkit",
+      "plus_code": "6GVVGVW2+3M",
+      "latitude": 7.545128,
+      "longitude": 37.851628
+    },
+    {
+      "id": "gelemso_branch",
+      "name": "Gelemso Branch",
+      "city": "Galamsoo",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Harargee Lixaa, Magaalaa Galamsoo, Wereda 02, Gamoo Mustafaa Haashim",
+      "plus_code": "6HW2RG88+QF",
+      "latitude": 8.816878,
+      "longitude": 40.516128
+    },
+    {
+      "id": "gerji_nejashi",
+      "name": "GERJI NEJASHI",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Garjii, Naannoo Roobaa Daaboo",
+      "plus_code": "XRV7+V9C Addis Ababa",
+      "latitude": 8.994631,
+      "longitude": 38.813378
+    },
+    {
+      "id": "girar_hamza",
+      "name": "GIRAR-HAMZA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Giraar naannoo Siltie Saffar",
+      "plus_code": "XMHP+M29, Addis Ababa",
+      "latitude": 8.979129,
+      "longitude": 38.685008
+    },
+    {
+      "id": "goffa_iqraa",
+      "name": "GOFFA IQRAA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Gofaa Adeebabay, Gamoo Gofaa 12 mahber abba fooqii 1ffaa",
+      "plus_code": "XPGX+6J9 Addis Ababa",
+      "latitude": 8.975504,
+      "longitude": 38.749008
+    },
+    {
+      "id": "gondor_branch",
+      "name": "Gondor Branch",
+      "city": "Gondar",
+      "region": "Amaaraa",
+      "address": "Gondar, Giddu-gala gabaa Hulgeb, Fuulduraa fuulduratti (Naannoo Aradaa Manaahariyaa)",
+      "plus_code": "JF38+8JX Gondar",
+      "latitude": 12.603258,
+      "longitude": 37.466508
+    },
+    {
+      "id": "gulelle_saba",
+      "name": "GULELLE SABA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Gulleellee W08, Naannoo Masjiida Saabaa",
+      "plus_code": "3P2F+77V Addis Ababa",
+      "latitude": 9.050633,
+      "longitude": 38.72313
+    },
+    {
+      "id": "gurd_shola_hiba",
+      "name": "GURD SHOLA-HIBA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Gurdsholaa, Boolee Bulbulaa, Naannoo Maaram Mazooriyaa, Gamoo Yoodit lafa jalaa",
+      "plus_code": "2R9F+C7R Addis Ababa",
+      "latitude": 9.018508,
+      "longitude": 38.823128
+    },
+    {
+      "id": "haik",
+      "name": "HAIK",
+      "city": "Hayyiq",
+      "region": "Amaaraa",
+      "address": "Naannoo Amaaraa, Wolloo Kibbaa, Magaalaa Hayyiq, Bukkee Baankii Abisiiniyaa",
+      "plus_code": "8M7G+2V Hayk",
+      "latitude": 9.312503,
+      "longitude": 38.677128
+    },
+    {
+      "id": "hajerah",
+      "name": "HAJERAH",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, N/S/L, Mekaaniisaa, Naannoo masjiida Huudaa, Gamoo Nedim lafa jalaa",
+      "plus_code": "XPFJ+JVV Addis Ababa",
+      "latitude": 8.974008,
+      "longitude": 38.73213
+    },
+    {
+      "id": "haji_ture",
+      "name": "HAJI TURE",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Adddis Katamaa, Markaatoo, Hoteela Mi'iraab, Giddu-gala gabaa Caaluut abba fooqii 2ffaa",
+      "plus_code": "2PHQ+H3G Addis Ababa",
+      "latitude": 9.028881,
+      "longitude": 38.737631
+    },
+    {
+      "id": "halaba",
+      "name": "HALABA",
+      "city": "Alaabaa Kulliitoo",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Halaabaa, Fuuldura Adeebabay Imaam Nunede",
+      "plus_code": "837Q+66X Alaba Kulito",
+      "latitude": 7.313008,
+      "longitude": 38.088008
+    },
+    {
+      "id": "haq",
+      "name": "HAQ",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Baankii Alamaa, Gamoo Ordoofoo lafa jalaa",
+      "plus_code": "2M2H+44R Addis Ababa",
+      "latitude": 9.000258,
+      "longitude": 38.677753
+    },
+    {
+      "id": "harar_abdir_branch",
+      "name": "Harar Abdir Branch",
+      "city": "Harar",
+      "region": "Naannoo Hararii",
+      "address": "Harar Abaadir, Naannoo Limat Magaalaa",
+      "plus_code": "846G+MX4 Harar",
+      "latitude": 9.311628,
+      "longitude": 42.127381
+    },
+    {
+      "id": "harar_hakim",
+      "name": "HARAR HAKIM",
+      "city": "Harar",
+      "region": "Naannoo Hararii",
+      "address": "Harar Aratanya, Fuuldura masjiida Imaam Ahmed",
+      "plus_code": "6HX4846G+MX",
+      "latitude": 9.311628,
+      "longitude": 42.127378
+    },
+    {
+      "id": "harar_mujahid",
+      "name": "Harar Mujahid",
+      "city": "Harar",
+      "region": "Naannoo Hararii",
+      "address": "Hararii",
+      "plus_code": "845J+84P Harar",
+      "latitude": 9.308257,
+      "longitude": 42.130256
+    },
+    {
+      "id": "harbu",
+      "name": "HARBU",
+      "city": "Harbuu",
+      "region": "Amaaraa",
+      "address": "Harbuu, kebele 01",
+      "plus_code": "WQCP+9Q8 Harbu",
+      "latitude": 8.920879,
+      "longitude": 38.786881
+    },
+    {
+      "id": "hasasa_branch",
+      "name": "Hasasa Branch",
+      "city": "Asaasat",
+      "region": "Oromiyaa",
+      "address": "Naannoo Oromiyaa, Arsii Lixaa, Woreda Gedeb Hasaasaa, Magaalaa Hasaasaa, Bukkee Baankii Oromiyaa",
+      "plus_code": "452W+X47 Asasa",
+      "latitude": 9.102379,
+      "longitude": 39.195255
+    },
+    {
+      "id": "hassen_enjamo",
+      "name": "HASSEN ENJAMO",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Masalamiyaa, Ehil Barandaa, Mi'iraab Deegan lafa jalaa",
+      "plus_code": "2PJF+V62 Addis Ababa",
+      "latitude": 9.032128,
+      "longitude": 38.723003
+    },
+    {
+      "id": "hawassa",
+      "name": "HAWASSA",
+      "city": "Hawaasaa",
+      "region": "Sidaamaa",
+      "address": "Hawaasaa, Arebsaffar, Naannoo Zalaalam Asmaci",
+      "plus_code": "6GVW3F4G+98",
+      "latitude": 7.055878,
+      "longitude": 38.475753
+    },
+    {
+      "id": "hunein_woleti",
+      "name": "HUNEIN /Woleti",
+      "city": "Finfinnee",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Magaalaa Sheger, Fuurii Gadaa Faajjii, Woleete kebele 03",
+      "plus_code": "XM6G+88H Kora Buhurbu, Addis Ababa",
+      "latitude": 8.960756,
+      "longitude": 38.675758
+    },
+    {
+      "id": "jafer_shire",
+      "name": "JAFER-SHIRE",
+      "city": "Shiree",
+      "region": "Tigiraayi",
+      "address": "Naannoo Tigiraayi, Shiree Indasillaasee, Naannoo Baankii Daashin",
+      "plus_code": "472J+36H Shire",
+      "latitude": 11.100131,
+      "longitude": 39.280508
+    },
+    {
+      "id": "jemo_tewfik",
+      "name": "JEMO TEWFIK",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Jeemoo 1, Gamoo Afraan lafa jalaa",
+      "plus_code": "XP67+59W, Unnamed Road, Addis Ababa",
+      "latitude": 8.960383,
+      "longitude": 38.713381
+    },
+    {
+      "id": "jigjiga",
+      "name": "JIGJIGA",
+      "city": "Jigjigaa",
+      "region": "Somaalee",
+      "address": "Jigjigaa, Naannoo Havaanaa, Gamoo Istaahil lafa jalaa",
+      "plus_code": "6HX48QXW+HJ",
+      "latitude": 9.348878,
+      "longitude": 42.796503
+    },
+    {
+      "id": "jimma_branch",
+      "name": "Jimma Branch",
+      "city": "Jimmaa",
+      "region": "Oromiyaa",
+      "address": "Oromiyaa, Godina Jimmaa, Fuuldura Yatebaberyut olii",
+      "plus_code": "MR9M+C85 Jimma",
+      "latitude": 7.668503,
+      "longitude": 36.833258
+    },
+    {
+      "id": "kality_nesir",
+      "name": "KALITY NESIR",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Naannoo Manaahariyaa Qallittii, Gamoo Fariid",
+      "plus_code": "VQWC+CC Addis Ababa",
+      "latitude": 8.896003,
+      "longitude": 38.771003
+    },
+    {
+      "id": "kemise",
+      "name": "Kemise",
+      "city": "Kamisee",
+      "region": "Naannoo Amaaraa, Zoonii Addaa Oromiyaa",
+      "address": "Kamisee, Fuuldura Mussa Coca yookaan bukkee nyaata muslimaa Aman Zeki",
+      "plus_code": "PV88+M8V Kemise",
+      "latitude": 10.716633,
+      "longitude": 39.865755
+    },
+    {
+      "id": "khalid_mekelle",
+      "name": "Khalid Mekelle",
+      "city": "Maqalee",
+      "region": "Tigiraayi",
+      "address": "Magaalaa Maqalee, Giddu-gala daldalaa Qadamawi Woyyane",
+      "plus_code": "FFWC+GQG Mekele",
+      "latitude": 13.496256,
+      "longitude": 39.471881
+    },
+    {
+      "id": "kolfe_fejir_branch",
+      "name": "Kolfe Fejir Branch",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Kolfee Ataanaa Teeraa, Naannoo Taiwaan",
+      "plus_code": "2PR8+V2Q Addis Ababa",
+      "latitude": 9.042132,
+      "longitude": 38.715008
+    },
+    {
+      "id": "kombolcah_kalu_branch",
+      "name": "Kombolcah Kalu Branch",
+      "city": "Kamboolchaa",
+      "region": "Amaaraa",
+      "address": "Amaaraa, Godina Wolloo Kibbaa, Woreda Qaluu, Magaalaa Kamboolchaa, Naannoo buufata baasii, Gamoo Ayinaalam",
+      "plus_code": "3PPP+FGM Kombolcha",
+      "latitude": 11.086132,
+      "longitude": 39.736255
+    },
+    {
+      "id": "kombolcha",
+      "name": "KOMBOLCHA",
+      "city": "Kamboolchaa",
+      "region": "Amaaraa",
+      "address": "Kamboolchaa, Naannoo San Kaaffee yookaan Naannoo Tootaal",
+      "plus_code": "3PPQ+37R Kombolcha",
+      "latitude": 11.085133,
+      "longitude": 39.738128
+    },
+    {
+      "id": "lafito_bilal",
+      "name": "LAFITO BILAL",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Mehal Laaftoo, Naannoo masjiida Bilaal, gamoo haaraa lafa jalaa",
+      "plus_code": "WPXV+8PF Addis Ababa",
+      "latitude": 8.948256,
+      "longitude": 38.744255
+    },
+    {
+      "id": "lebu_kherat",
+      "name": "LEBU KHERAT",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Naannoo Lebu Musica, Fuuldura Kaalidiis Koofee",
+      "plus_code": "2M4J+XXJ Addis Ababa",
+      "latitude": 9.007382,
+      "longitude": 38.682378
+    },
+    {
+      "id": "logia",
+      "name": "LOGIA",
+      "city": "Logiyaa",
+      "region": "Afaar",
+      "address": "Logiyaa, Afdera Teeraa, Fuuldura baankii abisiniyaa",
+      "plus_code": "PXGJ+P5F Logiya",
+      "latitude": 11.726756,
+      "longitude": 40.98038
+    },
+    {
+      "id": "megenaga_muhajir_branch",
+      "name": "Megenaga Muhajir Branch",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Magananyaa, Bukkee Gamoo Daraartuu",
+      "plus_code": "2Q9X+9WJ Addis Ababa",
+      "latitude": 9.018382,
+      "longitude": 38.799753
+    },
+    {
+      "id": "mekaneselam_branch",
+      "name": "Mekaneselam Branch",
+      "city": "Makaana Salaama",
+      "region": "Amaaraa",
+      "address": "Makaana Salaama, Wolloo Kibbaa, Zoonii Borenaa, kebele 02",
+      "plus_code": "PQX5+HQW Mekane Selam",
+      "latitude": 8.748883,
+      "longitude": 38.759381
+    },
+    {
+      "id": "melka_rafu",
+      "name": "MELKA RAFU",
+      "city": "Kamboolchaa 3",
+      "region": "Oromiyaa",
+      "address": "Ganda Abdukee, Fuuldura Gamoo Yuusuf Usoo",
+      "plus_code": "C4QC+XPM Kombolcha 3",
+      "latitude": 11.439882,
+      "longitude": 40.121755
+    },
+    {
+      "id": "meri_bedir",
+      "name": "MERI BEDIR",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Naannoo Meeri Gabaa",
+      "plus_code": "2VC7+4CQ Addis Ababa",
+      "latitude": 9.020257,
+      "longitude": 38.863508
+    },
+    {
+      "id": "merkato_medina",
+      "name": "MERKATO MEDINA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Awutoobis Teeraa, Fiic Teeraa, lafa jalaa",
+      "plus_code": "XPPX+QQM, Addis Ababa",
+      "latitude": 8.9869627,
+      "longitude": 38.7494217
+    },
+    {
+      "id": "merkato_mecca",
+      "name": "MERKATO-MECCA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Abdoo Barandaa, Gamoo Zalalaa abba fooqii 1ffaa",
+      "plus_code": "2PHP+Q3J Addis Ababa",
+      "latitude": 9.029382,
+      "longitude": 38.735128
+    },
+    {
+      "id": "mersa",
+      "name": "MERSA",
+      "city": "Marsaa",
+      "region": "Amaaraa",
+      "address": "Wolloo Marsaa",
+      "plus_code": "MM89+F2 mersa mosque, Mersa",
+      "latitude": 8.666128,
+      "longitude": 38.667503
+    },
+    {
+      "id": "merwa_branch",
+      "name": "Merwa Branch",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Markaatoo, Gomaa Teeraa, Gamoo Tsadey",
+      "plus_code": "2PGQ+QX5 Addis Ababa",
+      "latitude": 9.026878,
+      "longitude": 38.739883
+    },
+    {
+      "id": "mina",
+      "name": "MINA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Kolfee Karaaniyoo, Beete'eel, Bukkee Suuppermaarkit Sho'aa, Gamoo Al Meshaan lafa jalaa",
+      "plus_code": "2M3V+CGH, 07, Addis Ababa",
+      "latitude": 9.003506,
+      "longitude": 38.693758
+    },
+    {
+      "id": "mizan_aman_branch",
+      "name": "MIZAN AMAN BRANCH",
+      "city": "Miizaan Amaana",
+      "region": "Itoophiyaa Kibba Lixaa",
+      "address": "Itoophiyaa Kibba Lixaa, Zoonii Bench Shekoo, Magaalaa Miizaan Amaana, kebele Hibret",
+      "plus_code": "8FQ8WVFC+M5",
+      "latitude": 6.870443,
+      "longitude": 45.924198
+    },
+    {
+      "id": "pissa_nur",
+      "name": "PISSA NUR",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Piyaassa, Naannoo Masjiida Nuur, Fuuldura Kaantirii Taawar",
+      "plus_code": "2QJ2+92C Addis Ababa",
+      "latitude": 9.030881,
+      "longitude": 38.750003
+    },
+    {
+      "id": "remedan",
+      "name": "REMEDAN",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Boolee Miikaa'eel, Gamoo Emaad abba fooqii 1ffaa",
+      "plus_code": "XQJF+MPC Addis Ababa",
+      "latitude": 8.981631,
+      "longitude": 38.774253
+    },
+    {
+      "id": "sebara_babur_furqaan",
+      "name": "SEBARA BABUR FURQAAN",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Piyaassa Sabaraa Baabur",
+      "plus_code": "2PQX+R4W Addis Ababa",
+      "latitude": 9.039508,
+      "longitude": 38.747756
+    },
+    {
+      "id": "sefwa",
+      "name": "SEFWA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Markaatoo, Dubaay Teeraa, Giddu-gala gabaa Masarat Hiwot abba fooqii 2ffaa",
+      "plus_code": "2PJQ+8PC, Kenya St, Addis Ababa",
+      "latitude": 9.030756,
+      "longitude": 38.739253
+    },
+    {
+      "id": "semera_branch",
+      "name": "Semera Branch",
+      "city": "Samaraa",
+      "region": "Afaar",
+      "address": "Naannoo Afaar, Magaalaa Samaraa, kebele 01",
+      "plus_code": "Q2Q5+R8Q Semera",
+      "latitude": 11.789507,
+      "longitude": 41.008258
+    },
+    {
+      "id": "shashemane",
+      "name": "SHASHEMANE",
+      "city": "Shaashamannee",
+      "region": "Oromiyaa",
+      "address": "Shaashamannee, kebele Abosto, Meridian kafe lafa jalaa",
+      "plus_code": "5JR3+774 Shashemene",
+      "latitude": 7.190628,
+      "longitude": 38.603131
+    },
+    {
+      "id": "shashemane_abubeker",
+      "name": "SHASHEMANE ABUBEKER",
+      "city": "Shaashamannee",
+      "region": "Oromiyaa",
+      "address": "Shaashamannee, Woreda Awasho, kebele 01",
+      "plus_code": "6J36+MHV Shashemene",
+      "latitude": 7.204133,
+      "longitude": 38.61138
+    },
+    {
+      "id": "shashemane_arada",
+      "name": "SHASHEMENE-ARADA",
+      "city": "Shaashamannee",
+      "region": "Oromiyaa",
+      "address": "Shaashamannee Aradaa, Gamoo Hidayaat Traading",
+      "plus_code": "6H2V+WM9 Shashemene",
+      "latitude": 7.202254,
+      "longitude": 38.594133
+    },
+    {
+      "id": "shenen_gibe",
+      "name": "SHENEN GIBE",
+      "city": "Jimmaa",
+      "region": "Oromiyaa",
+      "address": "Jimmaa, Harmaata Markaatoo, Gamoo IBM lafa jalaa",
+      "plus_code": "MR9M+C92 Jimma",
+      "latitude": 7.668503,
+      "longitude": 36.833378
+    },
+    {
+      "id": "sidamo_tera_isra",
+      "name": "SIDAMO TERA-ISRA",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Markaatoo, Sidaamoo Teeraa, Gamoo Agenbi",
+      "plus_code": "2PHQ+MW9 Addis Ababa",
+      "latitude": 9.029129,
+      "longitude": 38.739758
+    },
+    {
+      "id": "tepii_branch",
+      "name": "Tepii Branch",
+      "city": "Tappii",
+      "region": "Itoophiyaa Kibba Lixaa",
+      "address": "Itoophiyaa Kibbaa, Tappii",
+      "plus_code": "5CXC+2F8 Tepi",
+      "latitude": 7.197504,
+      "longitude": 35.421131
+    },
+    {
+      "id": "tewbah",
+      "name": "TEWBAH",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Naannoo Bataskaana Taklahaymaanot, Gamoo Gaaraad abba fooqii 2ffaa",
+      "plus_code": "2PGV+RRM Addis Ababa",
+      "latitude": 9.027007,
+      "longitude": 38.744505
+    },
+    {
+      "id": "torhayloch",
+      "name": "TORHAYLOCH",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Torhayiloci, Bukkee dhimma Islaamaa Finfinnee",
+      "plus_code": "2P59+3MC Addis Ababa",
+      "latitude": 9.007631,
+      "longitude": 38.719128
+    },
+    {
+      "id": "umer_semeter",
+      "name": "UMER-SEMETER",
+      "city": "Finfinnee",
+      "region": "Finfinnee",
+      "address": "Finfinnee, Atikilt Teeraa (Gamoo Sekaa), abba fooqii 1ffaa",
+      "plus_code": "2PMW+P6J Addis Ababa",
+      "latitude": 9.034257,
+      "longitude": 38.745503
+    },
+    {
+      "id": "wahda_bedele",
+      "name": "WAHDA-BEDELE",
+      "city": "Baddallee",
+      "region": "Oromiyaa",
+      "address": "Naannoo Oromiyaa, Zoonii Buunnoo Baddallee, Magaalaa Baddallee, Gamoo Kiyaar lafa jalaa",
+      "plus_code": "F942+5RM Bedele",
+      "latitude": 8.455458,
+      "longitude": 36.352036
+    },
+    {
+      "id": "werabe",
+      "name": "WERABE",
+      "city": "Worraabee",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Worraabee, kebele 02, Gamoo Agnot lafa jalaa",
+      "plus_code": "V52P+2Q3, Gen Silt'e,Road, Worabe",
+      "latitude": 8.850003,
+      "longitude": 39.18688
+    },
+    {
+      "id": "woldia",
+      "name": "WOLDIA",
+      "city": "Waldiyaa",
+      "region": "Amaaraa",
+      "address": "Piyaassa, Fuuldura Faannoo Diimaa",
+      "plus_code": "RJJ2+79V Weldiya",
+      "latitude": 11.830633,
+      "longitude": 39.60088
+    },
+    {
+      "id": "wolkite",
+      "name": "WOLKITE",
+      "city": "Walqiixxee",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Walqiixxee, Gabaa Saffar, Bukkee gamoo Zerfu, abba fooqii 1ffaa",
+      "plus_code": "7QMH+2JV Welkite",
+      "latitude": 8.282508,
+      "longitude": 37.779005
+    },
+    {
+      "id": "wolkite_bereka",
+      "name": "Wolkite-Bereka",
+      "city": "Walqiixxee",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Ediget Cora, Gamoo Heyru",
+      "plus_code": "7QRJ+4C7 Welkite",
+      "latitude": 8.290254,
+      "longitude": 37.781005
+    },
+    {
+      "id": "worabe_duna_branch",
+      "name": "Worabe Duna Branch",
+      "city": "Worraabee",
+      "region": "Itoophiyaa Giddu-galaa",
+      "address": "Duunaa, Fuuldura Hospitaala Worraabee, Gamoo Nuriyaa Alamaar",
+      "plus_code": "R5MJ+959 Worabe",
+      "latitude": 8.833379,
+      "longitude": 39.180383
+    },
+    {
+      "id": "yeri_branch",
+      "name": "Yeri Branch",
+      "city": "Goshcaandi",
+      "region": "Gambellaa",
+      "address": "Naannoo Gambellaa",
+      "plus_code": "96QP+49X, Goshcandi",
+      "latitude": 8.387758,
+      "longitude": 34.235883
+    }
+  ]
+}

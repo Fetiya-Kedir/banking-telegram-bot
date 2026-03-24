@@ -94,10 +94,76 @@ MESSAGES = {
         "am": "የተፈለገው መረጃ አልተገኘም።",
         "om": "Odeeffannoon FAQ barbaadame hin argamne.",
     },
-    "FEATURE_BRANCH_PLACEHOLDER": {
-        "en": "Branch locator is coming in the next phase.",
-        "am": "የቅርንጫፍ መፈለጊያ አገልግሎት በቅርቡ ይለቀቃል።",
-        "om": "Tajaajilli damee barbaaduu dhiyeenyatti ni banama.",
+
+   "BRANCH_MENU_TITLE": {
+        "en": "📍 Branch Finder",
+        "am": "📍 ቅርንጫፍ መፈለጊያ",
+        "om": "📍 Damee Barbaaduuf",
+    },
+    "BRANCH_MENU_PROMPT": {
+        "en": "Choose how you want to find a branch.",
+        "am": "ቅርንጫፍ ለመፈለግ የሚፈልጉትን መንገድ ይምረጡ፡",
+        "om": "Maaloo karaa damee ittiin barbaaddan filadhaa:",
+    },
+    "BRANCH_SEARCH_BY_TEXT": {
+        "en": "🔎 Search by Text",
+        "am": "🔎 በጽሑፍ ለመፈለግ",
+        "om": "🔎 Barruun Barbaaduuf",
+    },
+    "BRANCH_SHARE_LOCATION": {
+        "en": "📍 Share Location",
+        "am": "📍 አካባቢን ለማጋራት",
+        "om": "📍 Bakka Jirtan Qooduuf",
+    },
+    "BRANCH_TEXT_PROMPT": {
+        "en": "Type a branch name, city, region, address, or plus code.",
+        "am": "እባክዎ የቅርንጫፍ ስም፣ ከተማ፣ ክልል፣ አድራሻ ወይም የፕላስ ኮድ (Plus code) ያስገቡ፡",
+        "om": "Maaloo maqaa damee, magaalaa, naannoo, teessoo, yookiin 'plus code' barreessaa:",
+    },
+    "BRANCH_TEXT_HINT": {
+        "en": "Example: Adama, Bole, Addis Ababa, Finfinnee",
+        "am": "ለምሳሌ፦ አዳማ፣ ቦሌ፣ አዲስ አበባ (ፊንፊኔ)",
+        "om": "Fakkeenyaaf: Adaamaa, Boolee, Finfinnee",
+    },
+    "BRANCH_LOCATION_PROMPT": {
+        "en": "Use the location button below to share your current location.",
+        "am": "ያሉበትን ቦታ ለማጋራት ከታች ያለውን የአካባቢ መጋሪያ ቁልፍ ይጠቀሙ፡",
+        "om": "Bakka jirtan qooduuf qaree (button) teessoo armaan gadii fayyadamaa:",
+    },
+    "BRANCH_LOCATION_HINT": {
+        "en": "The bot will return the nearest branches to you.",
+        "am": "ቦቱ በአቅራቢያዎ የሚገኙ ቅርንጫፎችን ያሳየዎታል።",
+        "om": "Botichi dameewwan isinitti dhihoo ta’an isiniif fida.",
+    },
+    "BRANCH_SEND_LOCATION_BUTTON": {
+        "en": "📍 Send My Location",
+        "am": "📍 አካባቢዬን ላክ",
+        "om": "📍 Bakka Jiru Ergi",
+    },
+    "BRANCH_LOCATION_RECEIVED": {
+        "en": "Location received.",
+        "am": "አካባቢው በትክክል ተቀብሏል።",
+        "om": "Teessoon keessan nu gaheera.",
+    },
+    "BRANCH_SEARCH_RESULTS_TITLE": {
+        "en": "Matching Branches",
+        "am": "ተዛማጅ ቅርንጫፎች",
+        "om": "Dameewwan Walsiman",
+    },
+    "BRANCH_NEARBY_RESULTS_TITLE": {
+        "en": "Nearest Branches",
+        "am": "በአቅራቢያ የሚገኙ ቅርንጫፎች",
+        "om": "Dameewwan Isinitti Dhihoo",
+    },
+    "BRANCH_NO_RESULTS": {
+        "en": "No matching branches were found.",
+        "am": "ምንም ተዛማጅ ቅርንጫፍ አልተገኘም።",
+        "om": "Dameen walsimu hin argamne.",
+    },
+    "BACK_TO_BRANCH_MENU": {
+    "en": "⬅️ Branch Menu",
+    "am": "⬅️ ወደ ቅርንጫፍ ማውጫ",
+    "om": "⬅️ Gara Baafata Dameetti",
     },
     "FEATURE_ATM_PLACEHOLDER": {
         "en": "ATM locator is coming in the next phase.",

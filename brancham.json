@@ -1,0 +1,1034 @@
+{
+  "branches": [
+    {
+      "id": "aba_koran",
+      "name": "አባ ቆራን (ABA-KORAN)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ ኻሊድ አህመድ ህንፃ ምድር ቤት",
+      "plus_code": "2PQR+6M2 Addis Ababa",
+      "latitude": 9.038003,
+      "longitude": 38.741628
+    },
+    {
+      "id": "abajifar",
+      "name": "አባ ጅፋር (ABAJIFAR)",
+      "city": "አዲስ አበባ",
+      "region": "ኦሮሚያ",
+      "address": "ፉሪ፣ ሉሊ የገበያ ማዕከል ምድር ቤት",
+      "plus_code": "XM2P+HV2 Addis Ababa",
+      "latitude": 8.951378,
+      "longitude": 38.687128
+    },
+    {
+      "id": "abdi_nonno",
+      "name": "አብዲ ኖኖ (ABDI-NONNO)",
+      "city": "አዲስ አበባ",
+      "region": "ኦሮሚያ",
+      "address": "አዲስ አበባ፣ አሸዋ ሜዳ ሻካ ሞል ፊት ለፊት",
+      "plus_code": "VQ9P+PR6, Addis Ababa",
+      "latitude": 8.869254,
+      "longitude": 38.787003
+    },
+    {
+      "id": "abinet_hira",
+      "name": "አቢነት ሂራ (ABINET-HIRA)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ ጆስ ሀንሰን እና ቤተሰቡ ሰፈር",
+      "plus_code": "2P9P+34H Addis Ababa",
+      "latitude": 9.017631,
+      "longitude": 38.735258
+    },
+    {
+      "id": "adam_minara_branch",
+      "name": "አዳማ ሚናራ ቅርንጫፍ",
+      "city": "አዳማ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ",
+      "plus_code": "G7RH+VJ2 Adama",
+      "latitude": 8.542128,
+      "longitude": 39.279003
+    },
+    {
+      "id": "adama",
+      "name": "አዳማ (ADAMA)",
+      "city": "አዳማ",
+      "region": "ኦሮሚያ",
+      "address": "አዳማ፣ ባዴቱ ቀበሌ ጨርጨር የገበያ ማዕከል ምድር ቤት",
+      "plus_code": "G7XC+39J Adama",
+      "latitude": 8.547632,
+      "longitude": 39.270878
+    },
+    {
+      "id": "adama_tebarek",
+      "name": "አዳማ ተባረክ",
+      "city": "አዳማ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል፣ አዳማ ከተማ ሳር ተራ",
+      "plus_code": "G7W8+CMG Adama",
+      "latitude": 8.546006,
+      "longitude": 39.266631
+    },
+    {
+      "id": "adama_nur",
+      "name": "አዳማ ኑር (ADAMA-NUR)",
+      "city": "አዳማ",
+      "region": "ኦሮሚያ",
+      "address": "አዳማ፣ ፍራንኮ አካባቢ መሐመድ ኑር ህንፃ ፊት ለፊት ምድር ቤት",
+      "plus_code": "G7R7+8HJ Adama",
+      "latitude": 8.540757,
+      "longitude": 39.263878
+    },
+    {
+      "id": "agaro_branch",
+      "name": "አጋሮ ቅርንጫፍ",
+      "city": "አጋሮ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ፣ ደቡብ ምዕራብ ጅማ ዞን",
+      "plus_code": "VH4M+3XH Agaro",
+      "latitude": 7.855131,
+      "longitude": 36.584883
+    },
+    {
+      "id": "agena_nur_banch",
+      "name": "አገና ኑር ቅርንጫፍ",
+      "city": "ጉራጌ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ጉራጌ",
+      "plus_code": "42P5+J58",
+      "latitude": 9.136504,
+      "longitude": 39.007881
+    },
+    {
+      "id": "akaki_rahman_branch",
+      "name": "አቃቂ ራህማን ቅርንጫፍ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ከተማ አስተዳደር፣ አቃቂ ቃሊቲ ክፍለ ከተማ ወረዳ 03 አቃቂ ገበያ",
+      "plus_code": "VQ9P+PR6 Addis Ababa",
+      "latitude": 8.869254,
+      "longitude": 38.787003
+    },
+    {
+      "id": "al_qaswa",
+      "name": "አል ቀስዋ (AL-QASWA)",
+      "city": "ጅጅጋ",
+      "region": "ሶማሊ",
+      "address": "ጅጅጋ ከተማ ዲኤክስ ሞል (DX-MALL) ምድር ቤት",
+      "plus_code": "9Q2X+2QQ, Jijiga",
+      "latitude": 9.350007,
+      "longitude": 42.799383
+    },
+    {
+      "id": "alemgena",
+      "name": "ዓለም ገና",
+      "city": "ዓለም ገና",
+      "region": "ኦሮሚያ",
+      "address": "ዓለም ገና አዲስ ሰፈር አካባቢ",
+      "plus_code": "WMM7+CHH Alem Gena",
+      "latitude": 8.933506,
+      "longitude": 38.663883
+    },
+    {
+      "id": "alif",
+      "name": "አሊፍ (ALIF)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ ቦሌ ወሎ ሰፈር (ጋራድ ህንፃ) ምድር ቤት",
+      "plus_code": "ZamZam Bank, XQVF+9W2, Ethio China St, Addis Ababa",
+      "latitude": 8.993378,
+      "longitude": 38.774753
+    },
+    {
+      "id": "amin_branch",
+      "name": "አሚን ቅርንጫፍ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ንፋስ ስልክ ላፍቶ ክፍለ ከተማ ብስራተ ገብርኤል ቪክቶሪ ታወር",
+      "plus_code": "XPWH+4M6, S Africa St, Addis Ababa",
+      "latitude": 8.995254,
+      "longitude": 38.729128
+    },
+    {
+      "id": "anwar_mesjid",
+      "name": "አንዋር መስጂድ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ አንዋር መስጂድ ፊት ለፊት ዋጂድ ህንፃ 3ኛ ፎቅ",
+      "plus_code": "2PMW+P6J Addis Ababa",
+      "latitude": 9.034257,
+      "longitude": 38.745503
+    },
+    {
+      "id": "arefa",
+      "name": "አረፋ (AREFA)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ ኮልፌ እፎይታ የገበያ ማዕከል 2ኛ ፎቅ",
+      "plus_code": "2PR7+MCG Addis Ababa",
+      "latitude": 9.041631,
+      "longitude": 38.713506
+    },
+    {
+      "id": "assela",
+      "name": "አሰላ (ASSELA)",
+      "city": "አሰላ",
+      "region": "ኦሮሚያ",
+      "address": "ኦዳ ገበያ፣ ሀጂ ቱራ ጨርቃ ጨርቅ ጎን ሳሙኤል ህንፃ ምድር ቤት",
+      "plus_code": "X44J+VCW Asela",
+      "latitude": 8.957133,
+      "longitude": 39.131006
+    },
+    {
+      "id": "atlas_amana",
+      "name": "አትላስ አማና",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አትላስ፣ ትራፊክ መብራት አጠገብ ላንድማርክ ህንፃ ምድር ቤት",
+      "plus_code": "2Q3H+HWR",
+      "latitude": 9.003883,
+      "longitude": 38.779753
+    },
+    {
+      "id": "aweday",
+      "name": "አወዳይ (AWEDAY)",
+      "city": "አወዳይ",
+      "region": "ሐረር",
+      "address": "ኦሮሚያ ክልል ምስራቅ ሐረርጌ ዞን አወዳይ ከተማ ኩካ ማከፋፈያ አካባቢ",
+      "plus_code": "6HX4925W+WH",
+      "latitude": 9.359753,
+      "longitude": 42.046378
+    },
+    {
+      "id": "ayer_tena",
+      "name": "አየር ጤና",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ አየር ጤና አንሳር መስጂድ አካባቢ ህንፃ ምድር ቤት",
+      "plus_code": "XMJV+VQ6, Addis Ababa",
+      "latitude": 8.982129,
+      "longitude": 38.694378
+    },
+    {
+      "id": "bahir_dar",
+      "name": "ባህር ዳር",
+      "city": "ባህር ዳር",
+      "region": "አማራ",
+      "address": "ባህር ዳር፣ አሮጌ መነሀሪያ ሀጂ ሁሴን እብሬ ህንፃ",
+      "plus_code": "H9QQ+JFV Bahir Dar",
+      "latitude": 11.589008,
+      "longitude": 37.38863
+    },
+    {
+      "id": "balcha_selam",
+      "name": "ባልቻ ሰላም",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ልደታ ክፍለ ከተማ ባልቻ ሆስፒታል አካባቢ ዳማ ትሬዲንግ",
+      "plus_code": "6GXW2P7Q+92",
+      "latitude": 9.013378,
+      "longitude": 38.737503
+    },
+    {
+      "id": "bale_robe_branch",
+      "name": "ባሌ ሮቤ ቅርንጫፍ",
+      "city": "ሮቤ",
+      "region": "ኦሮሚያ",
+      "address": "ባሌ ሮቤ፣ ግሪን ካፌ (Green Cafe) አካባቢ",
+      "plus_code": "42F3+89P Robe",
+      "latitude": 7.123257,
+      "longitude": 40.003381
+    },
+    {
+      "id": "bati",
+      "name": "ባቲ (BATI)",
+      "city": "ባቲ",
+      "region": "አማራ ኦሮሚያ ልዩ ዞን",
+      "address": "መነሀሪያ አካባቢ ሚና ካፌ ፊት ለፊት",
+      "plus_code": "52RC+854 Bati",
+      "latitude": 9.190753,
+      "longitude": 39.020381
+    },
+    {
+      "id": "beyetel_al_aqsa",
+      "name": "ቤተል አል አቅሷ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ቤተል 40 ሜትር",
+      "plus_code": "2M4J+XXJ Addis Ababa",
+      "latitude": 9.007382,
+      "longitude": 38.682378
+    },
+    {
+      "id": "bole_bulbula",
+      "name": "ቦሌ ቡልቡላ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ፣ ቦሌ፣ ቦሌ ቡልቡላ",
+      "plus_code": "XQ2P+RM7 Addis Ababa",
+      "latitude": 8.952004,
+      "longitude": 38.78663
+    },
+    {
+      "id": "bule_hra_branch",
+      "name": "ቡሌ ሆራ ቅርንጫፍ",
+      "city": "ቡሌ ሆራ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ጉጂ ዞን ቡሌ ሆራ ከተማ",
+      "plus_code": "J6PQ+47M Bule Hora",
+      "latitude": 8.635257,
+      "longitude": 39.23813
+    },
+    {
+      "id": "butajera",
+      "name": "ቡታጅራ",
+      "city": "ቡታጅራ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ቡታጅራ፣ 05 ቀበሌ መነሀሪያ አካባቢ አሚር ህንፃ ምድር ቤት",
+      "plus_code": "498G+24J Butajira",
+      "latitude": 8.115007,
+      "longitude": 38.375253
+    },
+    {
+      "id": "chiro_branch",
+      "name": "ጭሮ ቅርንጫፍ",
+      "city": "ጭሮ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ፣ ጭሮ",
+      "plus_code": "Chiro, 3VQ6+GWW, Asbe Teferi",
+      "latitude": 9.088758,
+      "longitude": 40.862256
+    },
+    {
+      "id": "dessie",
+      "name": "ደሴ (DESSIE)",
+      "city": "ደሴ",
+      "region": "አማራ",
+      "address": "አማራ፣ ደሴ ፒያሳ አካባቢ የቀድሞው ግሎባል ህንፃ ምድር ቤት",
+      "plus_code": "7G3X4J8J+6Q",
+      "latitude": 11.115503,
+      "longitude": 39.631878
+    },
+    {
+      "id": "dessie_arab_genda",
+      "name": "ደሴ ዓረብ ገንዳ",
+      "city": "ደሴ",
+      "region": "አማራ",
+      "address": "ዓረብ ገንዳ መስጂድ አጠገብ መነሀሪያ ፊት ለፊት",
+      "plus_code": "4JCM+9GX Dese",
+      "latitude": 11.120883,
+      "longitude": 39.633758
+    },
+    {
+      "id": "dessie_arada",
+      "name": "ደሴ አራዳ",
+      "city": "ደሴ",
+      "region": "አማራ",
+      "address": "አማራ ክልል፣ ደሴ ከተማ ደሴ አራዳ ክፍለ ከተማ እድገት የገበያ ማዕከል 1ኛ ፎቅ",
+      "plus_code": "4J7P+7GG Dese",
+      "latitude": 11.113131,
+      "longitude": 39.636256
+    },
+    {
+      "id": "dilla",
+      "name": "ዲላ (DILLA)",
+      "city": "ዲላ",
+      "region": "ደቡብ ኢትዮጵያ",
+      "address": "ዲላ፣ አምስተኛ መንገድ ቢላል መስጂድ ፊት ለፊት",
+      "plus_code": "C876+34R Dila",
+      "latitude": 6.412633,
+      "longitude": 38.310253
+    },
+    {
+      "id": "dire_dawa",
+      "name": "ድሬዳዋ",
+      "city": "ድሬዳዋ",
+      "region": "ድሬዳዋ",
+      "address": "ድሬዳዋ ቀበሌ 06፣ ዶ/ር ሳላሃዲን ህንፃ ምድር ቤት",
+      "plus_code": "6HX3HVQ8+V3",
+      "latitude": 9.589628,
+      "longitude": 41.865128
+    },
+    {
+      "id": "diredawa_sabian_branch",
+      "name": "ድሬዳዋ ሳቢያን ቅርንጫፍ",
+      "city": "ድሬዳዋ",
+      "region": "ድሬዳዋ",
+      "address": "ድሬዳዋ",
+      "plus_code": "JR3Q+4HG Dire Dawa",
+      "latitude": 9.602756,
+      "longitude": 41.838881
+    },
+    {
+      "id": "diredawa_ashewa",
+      "name": "ድሬዳዋ አሸዋ",
+      "city": "ድሬዳዋ",
+      "region": "ድሬዳዋ",
+      "address": "አሸዋ፣ ሀሰን አይዶራ ህንፃ",
+      "plus_code": "HVXC+P72 Dire Dawa",
+      "latitude": 9.599253,
+      "longitude": 41.870628
+    },
+    {
+      "id": "dodola_huda",
+      "name": "ዶዶላ ሁዳ",
+      "city": "ዶዶላ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል ምዕራብ አርሲ ዶዶላ ከተማ መዳወአቤ ቀበሌ",
+      "plus_code": "X5GJ+V6G Dodola",
+      "latitude": 6.977186,
+      "longitude": 39.180577
+    },
+    {
+      "id": "fateh_hossana",
+      "name": "ፈታህ ሆሳዕና",
+      "city": "ሆሳዕና",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "መካከለኛው ኢትዮጵያ ክልል ሀድያ ዞን ሆሳዕና ከተማ ሀኪማ ሱፐርማርኬት አጠገብ",
+      "plus_code": "6GVVGVW2+3M",
+      "latitude": 7.545128,
+      "longitude": 37.851628
+    },
+    {
+      "id": "gelemso_branch",
+      "name": "ገለምሶ ቅርንጫፍ",
+      "city": "ገለምሶ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል ምዕራብ ሐረርጌ ገለምሶ ከተማ ወረዳ 02 ሙስጠፋ ሀሺም ህንፃ",
+      "plus_code": "6HW2RG88+QF",
+      "latitude": 8.816878,
+      "longitude": 40.516128
+    },
+    {
+      "id": "gerji_nejashi",
+      "name": "ገርጂ ነጃሺ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ገርጂ፣ ሮባ ዳቦ አካባቢ",
+      "plus_code": "XRV7+V9C Addis Ababa",
+      "latitude": 8.994631,
+      "longitude": 38.813378
+    },
+    {
+      "id": "girar_hamza",
+      "name": "ግራም ሀምዛ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ግራር ስልጤ ሰፈር አካባቢ",
+      "plus_code": "XMHP+M29, Addis Ababa",
+      "latitude": 8.979129,
+      "longitude": 38.685008
+    },
+    {
+      "id": "goffa_iqraa",
+      "name": "ጎፋ ኢቅራ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ጎፋ አደባባይ፣ ጎፋ 12 ማህበር ህንፃ 1ኛ ፎቅ",
+      "plus_code": "XPGX+6J9 Addis Ababa",
+      "latitude": 8.975504,
+      "longitude": 38.749008
+    },
+    {
+      "id": "gondor_branch",
+      "name": "ጎንደር ቅርንጫፍ",
+      "city": "ጎንደር",
+      "region": "አማራ",
+      "address": "ጎንደር ሁለገብ የገበያ ማዕከል ፊት ለፊት (አራዳ መነሀሪያ አካባቢ)",
+      "plus_code": "JF38+8JX Gondar",
+      "latitude": 12.603258,
+      "longitude": 37.466508
+    },
+    {
+      "id": "gulelle_saba",
+      "name": "ጉለሌ ሳባ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ጉለሌ ወረዳ 08 ሳባ መስጂድ አካባቢ",
+      "plus_code": "3P2F+77V Addis Ababa",
+      "latitude": 9.050633,
+      "longitude": 38.72313
+    },
+    {
+      "id": "gurd_shola_hiba",
+      "name": "ጉርድ ሾላ ሂባ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ጉርድ ሾላ ቦሌ ቡልቡላ ማርያም ማዞሪያ ዮዲት ህንፃ ምድር ቤት",
+      "plus_code": "2R9F+C7R Addis Ababa",
+      "latitude": 9.018508,
+      "longitude": 38.823128
+    },
+    {
+      "id": "haik",
+      "name": "ሀይቅ (HAIK)",
+      "city": "ሀይቅ",
+      "region": "አማራ",
+      "address": "አማራ ክልል ደቡብ ወሎ ሀይቅ ከተማ አቢሲኒያ ባንክ አጠገብ ሀይቅ መደያ አካባቢ",
+      "plus_code": "8M7G+2V Hayk",
+      "latitude": 9.312503,
+      "longitude": 38.677128
+    },
+    {
+      "id": "hajerah",
+      "name": "ሀጀራ (HAJERAH)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መካኒሳ ሁዳ መስጂድ አካባቢ ነዲም ህንፃ ምድር ቤት",
+      "plus_code": "XPFJ+JVV Addis Ababa",
+      "latitude": 8.974008,
+      "longitude": 38.73213
+    },
+    {
+      "id": "haji_ture",
+      "name": "ሀጂ ቱሬ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መርካቶ ምዕራብ ሆቴል ጫሉት የገበያ ማዕከል 2ኛ ፎቅ",
+      "plus_code": "2PHQ+H3G Addis Ababa",
+      "latitude": 9.028881,
+      "longitude": 38.737631
+    },
+    {
+      "id": "halaba",
+      "name": "ሀላባ (HALABA)",
+      "city": "አላባ ቁሊቶ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ሀላባ ኢማም ኑኔዴ አደባባይ ፊት ለፊት",
+      "plus_code": "837Q+66X Alaba Kulito",
+      "latitude": 7.313008,
+      "longitude": 38.088008
+    },
+    {
+      "id": "haq",
+      "name": "ሀቅ (HAQ)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ዓለም ባንክ ኦርዶፎ ህንፃ ምድር ቤት",
+      "plus_code": "2M2H+44R Addis Ababa",
+      "latitude": 9.000258,
+      "longitude": 38.677753
+    },
+    {
+      "id": "harar_abdir_branch",
+      "name": "ሐረር አባዲር ቅርንጫፍ",
+      "city": "ሐረር",
+      "region": "ሐረሪ ክልል",
+      "address": "ሐረር አባዲር ከተማ ልማት አካባቢ",
+      "plus_code": "846G+MX4 Harar",
+      "latitude": 9.311628,
+      "longitude": 42.127381
+    },
+    {
+      "id": "harar_hakim",
+      "name": "ሐረር ሀኪም",
+      "city": "ሐረር",
+      "region": "ሐረሪ ክልል",
+      "address": "ሐረር አራት እኛ ኢማም አህመድ መስጂድ ፊት ለፊት",
+      "plus_code": "6HX4846G+MX",
+      "latitude": 9.311628,
+      "longitude": 42.127378
+    },
+    {
+      "id": "harar_mujahid",
+      "name": "ሐረር ሙጃሂድ",
+      "city": "ሐረር",
+      "region": "ሐረሪ ክልል",
+      "address": "ሐረሪ",
+      "plus_code": "845J+84P Harar",
+      "latitude": 9.308257,
+      "longitude": 42.130256
+    },
+    {
+      "id": "harbu",
+      "name": "ሀርቡ (HARBU)",
+      "city": "ሀርቡ",
+      "region": "አማራ",
+      "address": "ሀርቡ ቀበሌ 01",
+      "plus_code": "WQCP+9Q8 Harbu",
+      "latitude": 8.920879,
+      "longitude": 38.786881
+    },
+    {
+      "id": "hasasa_branch",
+      "name": "ሀሳሳ ቅርንጫፍ",
+      "city": "አሳሳ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል ምዕራብ አርሲ ገደብ ሀሳሳ ወረዳ ሀሳሳ ከተማ ኦሮሚያ ባንክ አጠገብ",
+      "plus_code": "452W+X47 Asasa",
+      "latitude": 9.102379,
+      "longitude": 39.195255
+    },
+    {
+      "id": "hassen_enjamo",
+      "name": "ሀሰን እንጃሞ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "መሳለሚያ እህል በረንዳ ምዕራብ ደገን ምድር ቤት",
+      "plus_code": "2PJF+V62 Addis Ababa",
+      "latitude": 9.032128,
+      "longitude": 38.723003
+    },
+    {
+      "id": "hawassa",
+      "name": "ሀዋሳ (HAWASSA)",
+      "city": "ሀዋሳ",
+      "region": "ሲዳማ",
+      "address": "ሀዋሳ አረብ ሰፈር ዘላለም አስመጪ አካባቢ",
+      "plus_code": "6GVW3F4G+98",
+      "latitude": 7.055878,
+      "longitude": 38.475753
+    },
+    {
+      "id": "hunein_woleti",
+      "name": "ሁነይን/ወለቴ",
+      "city": "አዲስ አበባ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ሸገር ከተማ ፉሪ ገዳ ፋጂ ወረዳ ወለቴ ቀበሌ 03",
+      "plus_code": "XM6G+88H Kora Buhurbu, Addis Ababa",
+      "latitude": 8.960756,
+      "longitude": 38.675758
+    },
+    {
+      "id": "jafer_shire",
+      "name": "ጃፈር ሽሬ",
+      "city": "ሽሬ",
+      "region": "ትግራይ",
+      "address": "ትግራይ ክልል ሽሬ እንደስላሴ ሽሬ ከተማ ዳሽን ባንክ አካባቢ",
+      "plus_code": "472J+36H Shire",
+      "latitude": 11.100131,
+      "longitude": 39.280508
+    },
+    {
+      "id": "jemo_tewfik",
+      "name": "ጀሞ ተውፊቅ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ጀሞ 1 አፍራን ህንፃ ምድር ቤት",
+      "plus_code": "XP67+59W, Unnamed Road, Addis Ababa",
+      "latitude": 8.960383,
+      "longitude": 38.713381
+    },
+    {
+      "id": "jigjiga",
+      "name": "ጅጅጋ (JIGJIGA)",
+      "city": "ጅጅጋ",
+      "region": "ሶማሊ",
+      "address": "ጅጅጋ ሀቫና አካባቢ ኢስታሂል ህንፃ ምድር ቤት",
+      "plus_code": "6HX48QXW+HJ",
+      "latitude": 9.348878,
+      "longitude": 42.796503
+    },
+    {
+      "id": "jimma_branch",
+      "name": "ጅማ ቅርንጫፍ",
+      "city": "ጅማ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል ጅማ ዞን የተባበሩት ኦይል ፊት ለፊት",
+      "plus_code": "MR9M+C85 Jimma",
+      "latitude": 7.668503,
+      "longitude": 36.833258
+    },
+    {
+      "id": "kality_nesir",
+      "name": "ቃሊቲ ነሲር",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ቃሊቲ መነሀሪያ አካባቢ ፋሪድ ህንፃ",
+      "plus_code": "VQWC+CC Addis Ababa",
+      "latitude": 8.896003,
+      "longitude": 38.771003
+    },
+    {
+      "id": "kemise",
+      "name": "ከሚሴ (Kemise)",
+      "city": "ከሚሴ",
+      "region": "አማራ ኦሮሚያ ልዩ ዞን",
+      "address": "ከሚሴ ሙሳ ኮካ ፊት ለፊት ወይም አማን ዘኪ ሙስሊም ሬስቶራንት አጠገብ",
+      "plus_code": "PV88+M8V Kemise",
+      "latitude": 10.716633,
+      "longitude": 39.865755
+    },
+    {
+      "id": "khalid_mekelle",
+      "name": "ኻሊድ መቐለ",
+      "city": "መቐለ",
+      "region": "ትግራይ",
+      "address": "መቐለ ከተማ ቀዳማይ ወያነ ቢዝነስ ሴንተር",
+      "plus_code": "FFWC+GQG Mekele",
+      "latitude": 13.496256,
+      "longitude": 39.471881
+    },
+    {
+      "id": "kolfe_fejir_branch",
+      "name": "ኮልፌ ፈጅር ቅርንጫፍ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ኮልፌ አጠና ተራ ታይዋን አካባቢ",
+      "plus_code": "2PR8+V2Q Addis Ababa",
+      "latitude": 9.042132,
+      "longitude": 38.715008
+    },
+    {
+      "id": "kombolcah_kalu_branch",
+      "name": "ኮምቦልቻ ቃሉ ቅርንጫፍ",
+      "city": "ኮምቦልቻ",
+      "region": "አማራ",
+      "address": "አማራ ክልል ደቡብ ወሎ ዞን ቃሉ ወረዳ ኮምቦልቻ ክፍለ ከተማ አውቶብስ ተራ አጠገብ አይናለም ህንፃ",
+      "plus_code": "3PPP+FGM Kombolcha",
+      "latitude": 11.086132,
+      "longitude": 39.736255
+    },
+    {
+      "id": "kombolcha",
+      "name": "ኮምቦልቻ (KOMBOLCHA)",
+      "city": "ኮምቦልቻ",
+      "region": "አማራ",
+      "address": "ኮምቦልቻ ሰን ካፌ (Sun Cafe) አካባቢ ወይም ቶታል አካባቢ",
+      "plus_code": "3PPQ+37R Kombolcha",
+      "latitude": 11.085133,
+      "longitude": 39.738128
+    },
+    {
+      "id": "lafito_bilal",
+      "name": "ላፍቶ ቢላል",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "መሃል ላፍቶ ቢላል መስጂድ አካባቢ አዲስ ህንፃ ምድር ቤት",
+      "plus_code": "WPXV+8PF Addis Ababa",
+      "latitude": 8.948256,
+      "longitude": 38.744255
+    },
+    {
+      "id": "lebu_kherat",
+      "name": "ለቡ ኸይራት",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ለቡ ሙዚቃ ቤት አካባቢ ካሊዲስ ኮፊ ፊት ለፊት",
+      "plus_code": "2M4J+XXJ Addis Ababa",
+      "latitude": 9.007382,
+      "longitude": 38.682378
+    },
+    {
+      "id": "logia",
+      "name": "ሎጊያ (LOGIA)",
+      "city": "ሎጊያ",
+      "region": "አፋር",
+      "address": "ሎጊያ አፍደራ ተራ አቢሲኒያ ባንክ ፊት ለፊት",
+      "plus_code": "PXGJ+P5F Logiya",
+      "latitude": 11.726756,
+      "longitude": 40.98038
+    },
+    {
+      "id": "megenaga_muhajir_branch",
+      "name": "መገናኛ ሙሃጂር ቅርንጫፍ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መገናኛ ደራርቱ ህንፃ አጠገብ",
+      "plus_code": "2Q9X+9WJ Addis Ababa",
+      "latitude": 9.018382,
+      "longitude": 38.799753
+    },
+    {
+      "id": "mekaneselam_branch",
+      "name": "መካነ ሰላም ቅርንጫፍ",
+      "city": "መካነ ሰላም",
+      "region": "አማራ",
+      "address": "መካነ ሰላም ደቡብ ወሎ ቦረና ዞን ቀበሌ 02",
+      "plus_code": "PQX5+HQW Mekane Selam",
+      "latitude": 8.748883,
+      "longitude": 38.759381
+    },
+    {
+      "id": "melka_rafu",
+      "name": "መልካ ራፉ",
+      "city": "ኮምቦልቻ",
+      "region": "ኦሮሚያ",
+      "address": "ገንዳ አብዱኬ ዩሱፍ ኡሶ ህንፃ ፊት ለፊት",
+      "plus_code": "C4QC+XPM Kombolcha 3",
+      "latitude": 11.439882,
+      "longitude": 40.121755
+    },
+    {
+      "id": "meri_bedir",
+      "name": "መሪ በድር",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መሪ ገበያ አካባቢ",
+      "plus_code": "2VC7+4CQ Addis Ababa",
+      "latitude": 9.020257,
+      "longitude": 38.863508
+    },
+    {
+      "id": "merkato_medina",
+      "name": "መርካቶ መዲና",
+      "city": "አዲስ አበባ",
+      "region": "መርካቶ",
+      "address": "አውቶብስ ተራ ፊትሽ ተራ ምድር ቤት",
+      "plus_code": "XPPX+QQM, Addis Ababa",
+      "latitude": 8.9869627,
+      "longitude": 38.7494217
+    },
+    {
+      "id": "merkato_mecca",
+      "name": "መርካቶ መካ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ አብዶ በረንዳ ዘለላ ህንፃ 1ኛ ፎቅ (ከምዕራብ ወደ ሰባተኛ በሚወስደው መንገድ)",
+      "plus_code": "2PHP+Q3J Addis Ababa",
+      "latitude": 9.029382,
+      "longitude": 38.735128
+    },
+    {
+      "id": "mersa",
+      "name": "መርሳ (MERSA)",
+      "city": "መርሳ",
+      "region": "አማራ",
+      "address": "ወሎ መርሳ",
+      "plus_code": "MM89+F2 mersa mosque, Mersa",
+      "latitude": 8.666128,
+      "longitude": 38.667503
+    },
+    {
+      "id": "merwa_branch",
+      "name": "መርዋ ቅርንጫፍ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መርካቶ ጎማ ተራ ፀደይ ህንፃ",
+      "plus_code": "2PGQ+QX5 Addis Ababa",
+      "latitude": 9.026878,
+      "longitude": 38.739883
+    },
+    {
+      "id": "mina",
+      "name": "ሚና (MINA)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ኮልፌ ቀራኒዮ ቤተል ሾዋ ሱፐርማርኬት አጠገብ አል መሻን ህንፃ ምድር ቤት",
+      "plus_code": "2M3V+CGH, 07, Addis Ababa",
+      "latitude": 9.003506,
+      "longitude": 38.693758
+    },
+    {
+      "id": "mizan_aman_branch",
+      "name": "ሚዛን አማን ቅርንጫፍ",
+      "city": "ሚዛን አማን",
+      "region": "ደቡብ ምዕራብ",
+      "address": "ደቡብ ምዕራብ ኢትዮጵያ ቤንች ሸኮ ዞን ሚዛን አማን ከተማ ቀበሌ ህብረት",
+      "plus_code": "8FQ8WVFC+M5",
+      "latitude": 6.870443,
+      "longitude": 45.924198
+    },
+    {
+      "id": "pissa_nur",
+      "name": "ፒያሳ ኑር",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ፒያሳ ኑር መስጂድ አካባቢ ካንትሪ ታወር ፊት ለፊት",
+      "plus_code": "2QJ2+92C Addis Ababa",
+      "latitude": 9.030881,
+      "longitude": 38.750003
+    },
+    {
+      "id": "remedan",
+      "name": "ረመዳን (REMEDAN)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ቦሌ ሚካኤል ኢማድ ህንፃ 1ኛ ፎቅ",
+      "plus_code": "XQJF+MPC Addis Ababa",
+      "latitude": 8.981631,
+      "longitude": 38.774253
+    },
+    {
+      "id": "sebara_babur_furqaan",
+      "name": "ሰባራ ባቡር ፉርቃን",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ፒያሳ ሰባራ ባቡር",
+      "plus_code": "2PQX+R4W Addis Ababa",
+      "latitude": 9.039508,
+      "longitude": 38.747756
+    },
+    {
+      "id": "sefwa",
+      "name": "ሰፍዋ (SEFWA)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መርካቶ ዱባይ ተራ መሰረት ህይወት የገበያ ማዕከል 2ኛ ፎቅ",
+      "plus_code": "2PJQ+8PC, Kenya St, Addis Ababa",
+      "latitude": 9.030756,
+      "longitude": 38.739253
+    },
+    {
+      "id": "semera_branch",
+      "name": "ሰመራ ቅርንጫፍ",
+      "city": "ሰመራ",
+      "region": "አፋር",
+      "address": "አፋር ክልል ሰመራ ከተማ ቀበሌ 01",
+      "plus_code": "Q2Q5+R8Q Semera",
+      "latitude": 11.789507,
+      "longitude": 41.008258
+    },
+    {
+      "id": "shashemane",
+      "name": "ሻሸመኔ (SHASHEMANE)",
+      "city": "ሻሸመኔ",
+      "region": "ኦሮሚያ",
+      "address": "ሻሸመኔ አቦስቶ ቀበሌ ሜሪድያን ካፌ ምድር ቤት",
+      "plus_code": "5JR3+774 Shashemene",
+      "latitude": 7.190628,
+      "longitude": 38.603131
+    },
+    {
+      "id": "shashemane_abubeker",
+      "name": "ሻሸመኔ አቡበከር",
+      "city": "ሻሸመኔ",
+      "region": "ኦሮሚያ",
+      "address": "ሻሸመኔ አዋሾ ወረዳ 01 ቀበሌ",
+      "plus_code": "6J36+MHV Shashemene",
+      "latitude": 7.204133,
+      "longitude": 38.61138
+    },
+    {
+      "id": "shashemene_arada",
+      "name": "ሻሸመኔ አራዳ",
+      "city": "ሻሸመኔ",
+      "region": "ኦሮሚያ",
+      "address": "ሻሸመኔ አራዳ ሂድያት ትሬዲንግ ህንፃ",
+      "plus_code": "6H2V+WM9 Shashemene",
+      "latitude": 7.202254,
+      "longitude": 38.594133
+    },
+    {
+      "id": "shenen_gibe",
+      "name": "ሸነን ጊቤ",
+      "city": "ጅማ",
+      "region": "ኦሮሚያ",
+      "address": "ጅማ ሄርማታ መርካቶ አይቢኤም (IBM) ህንፃ ምድር ቤት",
+      "plus_code": "MR9M+C92 Jimma",
+      "latitude": 7.668503,
+      "longitude": 36.833378
+    },
+    {
+      "id": "sidamo_tera_isra",
+      "name": "ሲዳሞ ተራ ኢስራ",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ መርካቶ ሲዳሞ ተራ አገንቢ ህንፃ",
+      "plus_code": "2PHQ+MW9 Addis Ababa",
+      "latitude": 9.029129,
+      "longitude": 38.739758
+    },
+    {
+      "id": "tepii_branch",
+      "name": "ቴፒ ቅርንጫፍ",
+      "city": "ቴፒ",
+      "region": "ደቡብ ምዕራብ",
+      "address": "ደቡብ ኢትዮጵያ ቴፒ",
+      "plus_code": "5CXC+2F8 Tepi",
+      "latitude": 7.197504,
+      "longitude": 35.421131
+    },
+    {
+      "id": "tewbah",
+      "name": "ተውባ (TEWBAH)",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "ተክለሀይማኖት ቤተክርስቲያን አካባቢ ጋራድ ህንፃ 2ኛ ፎቅ",
+      "plus_code": "2PGV+RRM Addis Ababa",
+      "latitude": 9.027007,
+      "longitude": 38.744505
+    },
+    {
+      "id": "torhayloch",
+      "name": "ጦር ኃይሎች",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ ጦር ኃይሎች አዲስ አበባ እስልምና ጉዳዮች አጠገብ",
+      "plus_code": "2P59+3MC Addis Ababa",
+      "latitude": 9.007631,
+      "longitude": 38.719128
+    },
+    {
+      "id": "umer_semeter",
+      "name": "ኡመር ሰሜትር",
+      "city": "አዲስ አበባ",
+      "region": "አዲስ አበባ",
+      "address": "አዲስ አበባ አትክልት ተራ (ሰቃ ህንፃ) 1ኛ ፎቅ",
+      "plus_code": "2PMW+P6J Addis Ababa",
+      "latitude": 9.034257,
+      "longitude": 38.745503
+    },
+    {
+      "id": "wahda_bedele",
+      "name": "ዋህዳ በደሌ",
+      "city": "በደሌ",
+      "region": "ኦሮሚያ",
+      "address": "ኦሮሚያ ክልል ቡኖ በደሌ ዞን በደሌ ከተማ አደባባይ ኪያር ህንፃ ምድር ቤት",
+      "plus_code": "F942+5RM Bedele",
+      "latitude": 8.455458,
+      "longitude": 36.352036
+    },
+    {
+      "id": "werabe",
+      "name": "ወራቤ (WERABE)",
+      "city": "ወራቤ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ወራቤ ቀበሌ 02 አግኖት ህንፃ ምድር ቤት",
+      "plus_code": "V52P+2Q3, Gen Silt'e,Road, Worabe",
+      "latitude": 8.850003,
+      "longitude": 39.18688
+    },
+    {
+      "id": "woldia",
+      "name": "ወልድያ (WOLDIA)",
+      "city": "ወልድያ",
+      "region": "አማራ",
+      "address": "ፒያሳ ቀይ መስቀል ፊት ለፊት",
+      "plus_code": "RJJ2+79V Weldiya",
+      "latitude": 11.830633,
+      "longitude": 39.60088
+    },
+    {
+      "id": "wolkite",
+      "name": "ወልቂጤ (WOLKITE)",
+      "city": "ወልቂጤ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ወልቂጤ ገበያ ሰፈር ዘርፉ ህንፃ አጠገብ 1ኛ ፎቅ",
+      "plus_code": "7QMH+2JV Welkite",
+      "latitude": 8.282508,
+      "longitude": 37.779005
+    },
+    {
+      "id": "wolkite_bereka",
+      "name": "ወልቂጤ በረካ",
+      "city": "ወልቂጤ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "እድገት ጮራ ኸይሩ ህንፃ",
+      "plus_code": "7QRJ+4C7 Welkite",
+      "latitude": 8.290254,
+      "longitude": 37.781005
+    },
+    {
+      "id": "worabe_duna_branch",
+      "name": "ወራቤ ዱና ቅርንጫፍ",
+      "city": "ወራቤ",
+      "region": "መካከለኛው ኢትዮጵያ",
+      "address": "ዱና ወራቤ ሆስፒታል ፊት ለፊት ኑሪያ አለማር ህንፃ",
+      "plus_code": "R5MJ+959 Worabe",
+      "latitude": 8.833379,
+      "longitude": 39.180383
+    },
+    {
+      "id": "yeri_branch",
+      "name": "የሪ ቅርንጫፍ",
+      "city": "ጎሽካንዲ",
+      "region": "ጋምቤላ",
+      "address": "ጋምቤላ ክልል",
+      "plus_code": "96QP+49X, Goshcandi",
+      "latitude": 8.387758,
+      "longitude": 34.235883
+    }
+  ]
+}

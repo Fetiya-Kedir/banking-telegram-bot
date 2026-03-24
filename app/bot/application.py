@@ -8,14 +8,22 @@ from telegram.ext import (
     CallbackQueryHandler,
     CommandHandler,
     ContextTypes,
+    MessageHandler,
+    filters,
 )
 
+from app.bot.handlers.branch import (
+    handle_branch_action,
+    handle_branch_location_input,
+    handle_branch_text_input,
+)
 from app.bot.handlers.faq import handle_faq_action
 from app.bot.handlers.language import handle_language_selection
 from app.bot.handlers.menu import handle_menu_action
 from app.bot.handlers.navigation import handle_navigation_action
 from app.bot.handlers.start import start_command
 from app.config.constants import (
+    BRANCH_CALLBACK_PREFIX,
     FAQ_CALLBACK_PREFIX,
     LANGUAGE_CALLBACK_PREFIX,
     MENU_CALLBACK_PREFIX,
@@ -70,6 +78,12 @@ def build_application(bot_token: str) -> Application:
     )
     application.add_handler(
         CallbackQueryHandler(
+            handle_branch_action,
+            pattern=rf"^{BRANCH_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
             handle_navigation_action,
             pattern=rf"^{NAV_CALLBACK_PREFIX}",
         )
@@ -79,6 +93,11 @@ def build_application(bot_token: str) -> Application:
             handle_menu_action,
             pattern=rf"^{MENU_CALLBACK_PREFIX}",
         )
+    )
+
+    application.add_handler(MessageHandler(filters.LOCATION, handle_branch_location_input))
+    application.add_handler(
+        MessageHandler(filters.TEXT & ~filters.COMMAND, handle_branch_text_input)
     )
 
     application.add_error_handler(error_handler)

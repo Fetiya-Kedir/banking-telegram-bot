@@ -5,6 +5,7 @@ import logging
 from telegram import Update
 from telegram.ext import ContextTypes
 
+from app.bot.handlers.branch import clear_branch_state
 from app.bot.handlers.menu import build_main_menu_text
 from app.bot.keyboards.menu import main_menu_keyboard
 from app.config.constants import SUPPORTED_LANGUAGES
@@ -22,6 +23,8 @@ async def handle_language_selection(
 
     query = update.callback_query
     await query.answer()
+
+    clear_branch_state(context)
 
     raw_data = query.data or ""
     _, selected_language = raw_data.split(":", maxsplit=1)
