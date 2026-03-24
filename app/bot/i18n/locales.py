@@ -165,15 +165,85 @@ MESSAGES = {
     "am": "⬅️ ወደ ቅርንጫፍ ማውጫ",
     "om": "⬅️ Gara Baafata Dameetti",
     },
-    "FEATURE_ATM_PLACEHOLDER": {
-        "en": "ATM locator is coming in the next phase.",
-        "am": "የኤቲኤም (ATM) መፈለጊያ አገልግሎት በቅርቡ ይለቀቃል።",
-        "om": "Tajaajilli ATM barbaaduu dhiyeenyatti ni banama.",
+    "BACK_TO_ATM_MENU": {
+        "en": "⬅️ ATM Menu",
+        "am": "⬅️ ወደ ኤቲኤም (ATM) ማውጫ",
+        "om": "⬅️ Gara Baafata ATMtti",
     },
-    "FEATURE_FAQ_PLACEHOLDER": {
-        "en": "FAQ module is coming in a later phase.",
-        "am": "ተደጋጋሚ ጥያቄዎች በቅርቡ ይካተታሉ።",
-        "om": "Kutaan gaaffilee irra deddeebii dhiyeenyatti ni dhiyaata.",
+    "ATM_MENU_TITLE": {
+        "en": "🏧 ATM Locator",
+        "am": "🏧 ኤቲኤም (ATM) መፈለጊያ",
+        "om": "🏧 ATM Barbaaduuf",
+    },
+    "ATM_MENU_PROMPT": {
+        "en": "Choose how you want to find an ATM.",
+        "am": "ኤቲኤም ለመፈለግ የሚፈልጉትን መንገድ ይምረጡ፡",
+        "om": "Maaloo karaa ATM ittiin barbaaddan filadhaa:",
+    },
+    "ATM_SEARCH_BY_TEXT": {
+        "en": "🔎 Search by Text",
+        "am": "🔎 በጽሑፍ ለመፈለግ",
+        "om": "🔎 Barruun Barbaaduuf",
+    },
+    "ATM_SHARE_LOCATION": {
+        "en": "📍 Share Location",
+        "am": "📍 አካባቢን ለማጋራት",
+        "om": "📍 Bakka Jirtan Qooduuf",
+    },
+    "ATM_TEXT_PROMPT": {
+        "en": "Type an ATM name, location, or nearby landmark.",
+        "am": "እባክዎ የኤቲኤም ስም፣ ቦታ ወይም አቅራቢያ የሚገኝ ታዋቂ ምልክት ያስገቡ፡",
+        "om": "Maaloo maqaa ATM, bakka, yookiin mallattoo naannoo isaa barreessaa:",
+    },
+    "ATM_TEXT_HINT": {
+        "en": "Example: Gerji, Adama, Atlas Amanah, AYA HOTEL",
+        "am": "ለምሳሌ፦ ገርጂ፣ አዳማ፣ አትላስ አማና፣ አያ ሆቴል",
+        "om": "Fakkeenyaaf: Gerjii, Adaamaa, Atlas Amanah, AYA HOTEL",
+    },
+    "ATM_LOCATION_PROMPT": {
+        "en": "Use the location button below to share your current location.",
+        "am": "ያሉበትን ቦታ ለማጋራት ከታች ያለውን የአካባቢ መጋሪያ ቁልፍ ይጠቀሙ፡",
+        "om": "Bakka jirtan qooduuf qaree (button) teessoo armaan gadii fayyadamaa:",
+    },
+    "ATM_LOCATION_HINT": {
+        "en": "The bot will return the nearest ATMs to you.",
+        "am": "ቦቱ በአቅራቢያዎ የሚገኙ ኤቲኤሞችን ያሳየዎታል።",
+        "om": "Botichi ATMwwan isinitti dhihoo ta’an isiniif fida.",
+    },
+    "ATM_SEND_LOCATION_BUTTON": {
+        "en": "📍 Send My Location",
+        "am": "📍 አካባቢዬን ላክ",
+        "om": "📍 Bakka Jiru Ergi",
+    },
+    "ATM_SEARCH_RESULTS_TITLE": {
+        "en": "Matching ATMs",
+        "am": "ተዛማጅ ኤቲኤሞች",
+        "om": "ATMwwan Walsiman",
+    },
+    "ATM_NEARBY_RESULTS_TITLE": {
+        "en": "Nearest ATMs",
+        "am": "በአቅራቢያ የሚገኙ ኤቲኤሞች",
+        "om": "ATMwwan Isinitti Dhihoo",
+    },
+    "ATM_NO_RESULTS": {
+        "en": "No matching ATMs were found.",
+        "am": "ምንም ተዛማጅ ኤቲኤም አልተገኘም።",
+        "om": "ATMn walsimu hin argamne.",
+    },
+    "ATM_SERVICES_TITLE": {
+        "en": "Services",
+        "am": "አገልግሎቶች",
+        "om": "Tajaajiloota",
+    },
+    "ATM_SERVICE_WITHDRAWAL": {
+        "en": "Cash Withdrawal",
+        "am": "ገንዘብ ማውጣት",
+        "om": "Maallaqa Baasuu",
+    },
+    "ATM_SERVICE_BALANCE": {
+        "en": "Balance Inquiry",
+        "am": "ቀሪ ሂሳብ ማየት",
+        "om": "Hafe Herregaa Ilaaluu",
     },
     "FEATURE_SUPPORT_PLACEHOLDER": {
         "en": "Human support workflow is coming in a later phase.",

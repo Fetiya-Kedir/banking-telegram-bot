@@ -1,0 +1,686 @@
+{
+  "atms": [
+    {
+      "id": "alif_garad_1",
+      "sno": 1,
+      "name": {
+        "en": "ALIF - Garad",
+        "am": "አሊፍ - ጋራድ",
+        "om": "ALIF - Garad"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "Garad Building",
+        "am": "ጋራድ ህንፃ",
+        "om": "Gamoo Gaaraad"
+      },
+      "latitude": 8.993378,
+      "longitude": 38.774753,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "alif_test_2",
+      "sno": 2,
+      "name": {
+        "en": "ALIF - Test",
+        "am": "አሊፍ - ቴስት",
+        "om": "ALIF - Test"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "Test Machine",
+        "am": "የሙከራ ማሽን",
+        "om": "Maashinii qorannoo"
+      },
+      "latitude": 8.993378,
+      "longitude": 38.774753,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "alif_meskel_flower_3",
+      "sno": 3,
+      "name": {
+        "en": "ALIF - Meskel Flower",
+        "am": "አሊፍ - መስቀል ፍላወር",
+        "om": "ALIF - Meskel Flower"
+      },
+      "location": {
+        "en": "MESKEL FLOWER",
+        "am": "መስቀል ፍላወር",
+        "om": "MESKEL FLOWER"
+      },
+      "desc": {
+        "en": "ZZ000012",
+        "am": "ZZ000012",
+        "om": "ZZ000012"
+      },
+      "latitude": 8.993378,
+      "longitude": 38.774753,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "mina_4",
+      "sno": 4,
+      "name": {
+        "en": "MINA",
+        "am": "ሚና",
+        "om": "MINA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000004",
+        "am": "ZZ000004",
+        "om": "ZZ000004"
+      },
+      "latitude": 9.003506,
+      "longitude": 38.693758,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "abajifar_5",
+      "sno": 5,
+      "name": {
+        "en": "ABAJIFAR",
+        "am": "አባጅፋር",
+        "om": "ABAJIFAR"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000005",
+        "am": "ZZ000005",
+        "om": "ZZ000005"
+      },
+      "latitude": 8.951378,
+      "longitude": 38.687128,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "arefa_6",
+      "sno": 6,
+      "name": {
+        "en": "AREFA",
+        "am": "አረፋ",
+        "om": "AREFA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000007",
+        "am": "ZZ000007",
+        "om": "ZZ000007"
+      },
+      "latitude": 9.041631,
+      "longitude": 38.713506,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "haq_7",
+      "sno": 7,
+      "name": {
+        "en": "HAQ",
+        "am": "ሀቅ",
+        "om": "HAQ"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000006",
+        "am": "ZZ000006",
+        "om": "ZZ000006"
+      },
+      "latitude": 9.000258,
+      "longitude": 38.677753,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "diredawa_8",
+      "sno": 8,
+      "name": {
+        "en": "DIREDAWA",
+        "am": "ድሬዳዋ",
+        "om": "DIREDAWA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000022",
+        "am": "ZZ000022",
+        "om": "ZZ000022"
+      },
+      "latitude": 9.589628,
+      "longitude": 41.865128,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "adama_9",
+      "sno": 9,
+      "name": {
+        "en": "ADAMA",
+        "am": "አዳማ",
+        "om": "ADAMA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000014",
+        "am": "ZZ000014",
+        "om": "ZZ000014"
+      },
+      "latitude": 8.547632,
+      "longitude": 39.270878,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "shashemene_10",
+      "sno": 10,
+      "name": {
+        "en": "SHASHEMENE",
+        "am": "ሻሸመኔ",
+        "om": "SHASHEMENE"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000018",
+        "am": "ZZ000018",
+        "om": "ZZ000018"
+      },
+      "latitude": 7.190628,
+      "longitude": 38.603131,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "jigjiga_11",
+      "sno": 11,
+      "name": {
+        "en": "JIGJIGA",
+        "am": "ጅጅጋ",
+        "om": "JIGJIGA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "Alqeswa branch",
+        "am": "አልቀስዋ ቅርንጫፍ",
+        "om": "Damee Alqeswa"
+      },
+      "latitude": 9.350007,
+      "longitude": 42.799383,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "dessie_12",
+      "sno": 12,
+      "name": {
+        "en": "DESSIE",
+        "am": "ደሴ",
+        "om": "DESSIE"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000016",
+        "am": "ZZ000016",
+        "om": "ZZ000016"
+      },
+      "latitude": 11.115503,
+      "longitude": 39.631878,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "meri_bedir_13",
+      "sno": 13,
+      "name": {
+        "en": "MERI BEDIR",
+        "am": "መሪ በድር",
+        "om": "MERI BEDIR"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000008",
+        "am": "ZZ000008",
+        "om": "ZZ000008"
+      },
+      "latitude": 9.020257,
+      "longitude": 38.863508,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "gerji_14",
+      "sno": 14,
+      "name": {
+        "en": "GERJI",
+        "am": "ገርጂ",
+        "om": "GERJI"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000009",
+        "am": "ZZ000009",
+        "om": "ZZ000009"
+      },
+      "latitude": 8.994631,
+      "longitude": 38.813378,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "sebara_babur_15",
+      "sno": 15,
+      "name": {
+        "en": "SEBARA BABUR",
+        "am": "ሰባራ ባቡር",
+        "om": "SEBARA BABUR"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000010",
+        "am": "ZZ000010",
+        "om": "ZZ000010"
+      },
+      "latitude": 9.039508,
+      "longitude": 38.747756,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "wolkite_berekah_16",
+      "sno": 16,
+      "name": {
+        "en": "WOLKITE BEREKAH",
+        "am": "ወልቂጤ በረካ",
+        "om": "WOLKITE BEREKAH"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000021",
+        "am": "ZZ000021",
+        "om": "ZZ000021"
+      },
+      "latitude": 8.290254,
+      "longitude": 37.781005,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "kality_17",
+      "sno": 17,
+      "name": {
+        "en": "KALITY",
+        "am": "ቃሊቲ",
+        "om": "KALITY"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000019",
+        "am": "ZZ000019",
+        "om": "ZZ000019"
+      },
+      "latitude": 8.896003,
+      "longitude": 38.771003,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "girara_hamza_18",
+      "sno": 18,
+      "name": {
+        "en": "GIRARA HAMZA",
+        "am": "ግራራ ሀምዛ",
+        "om": "GIRARA HAMZA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000011",
+        "am": "ZZ000011",
+        "om": "ZZ000011"
+      },
+      "latitude": 8.979129,
+      "longitude": 38.685008,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "abinet_hira_19",
+      "sno": 19,
+      "name": {
+        "en": "ABINET HIRA",
+        "am": "አቢነት ሂራ",
+        "om": "ABINET HIRA"
+      },
+      "location": {
+        "en": "AMIN HOSPITAL",
+        "am": "አሚን ሆስፒታል",
+        "om": "HOSPITAALA AMIIN"
+      },
+      "desc": {
+        "en": "ZZ000020",
+        "am": "አቢነት ኮካ ፋብሪካ አጠገብ",
+        "om": "Abeeneet naannoo Warshaa Kookkaa"
+      },
+      "latitude": 9.016074,
+      "longitude": 38.729153,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "atlas_amanah_20",
+      "sno": 20,
+      "name": {
+        "en": "ATLAS AMANAH",
+        "am": "አትላስ አማና",
+        "om": "ATLAS AMANAH"
+      },
+      "location": {
+        "en": "AYA HOTEL",
+        "am": "አያ ሆቴል",
+        "om": "HOOTEELA AYYAA"
+      },
+      "desc": {
+        "en": "AYA Hotel location",
+        "am": "አያ ሆቴል አካባቢ",
+        "om": "Naannoo Hooteela Ayyaa"
+      },
+      "latitude": 9.000726,
+      "longitude": 38.782839,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "khalid_mekelle_21",
+      "sno": 21,
+      "name": {
+        "en": "KHALID MEKELLE",
+        "am": "ኻሊድ መቐለ",
+        "om": "KHALID MEKELLE"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000023",
+        "am": "ZZ000023",
+        "om": "ZZ000023"
+      },
+      "latitude": 13.496256,
+      "longitude": 39.471881,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    },
+    {
+      "id": "butajira_22",
+      "sno": 22,
+      "name": {
+        "en": "BUTAJIRA",
+        "am": "ቡታጅራ",
+        "om": "BUTAJIRA"
+      },
+      "location": {
+        "en": "BRANCH",
+        "am": "ቅርንጫፍ",
+        "om": "Damee"
+      },
+      "desc": {
+        "en": "ZZ000025",
+        "am": "ZZ000025",
+        "om": "ZZ000025"
+      },
+      "latitude": 8.115007,
+      "longitude": 38.375253,
+      "services": {
+        "cash_withdrawal": true,
+        "balance_inquiry": true,
+        "cash_deposit": false,
+        "mini_statement": false,
+        "fund_transfer": false
+      },
+      "smart_capable": false,
+      "smart_features_enabled": false,
+      "is_active": true
+    }
+  ]
+}

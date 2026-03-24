@@ -3,6 +3,7 @@ from __future__ import annotations
 from telegram import Update
 from telegram.ext import ContextTypes
 
+from app.bot.handlers.atm import clear_atm_state
 from app.bot.handlers.branch import clear_branch_state
 from app.bot.handlers.menu import build_main_menu_text
 from app.bot.i18n.translator import t
@@ -23,6 +24,7 @@ async def handle_navigation_action(
     await query.answer()
 
     clear_branch_state(context)
+    clear_atm_state(context)
 
     settings = context.application.bot_data["settings"]
     session_factory = context.application.bot_data["session_factory"]

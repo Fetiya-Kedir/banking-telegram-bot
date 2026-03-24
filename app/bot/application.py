@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 
+from telegram import Update
 from telegram.ext import (
     Application,
     ApplicationBuilder,
@@ -12,7 +13,18 @@ from telegram.ext import (
     filters,
 )
 
+from app.bot.handlers.atm import (
+    ATM_MODE_KEY,
+    ATM_MODE_LOCATION,
+    ATM_MODE_TEXT,
+    handle_atm_action,
+    handle_atm_location_input,
+    handle_atm_text_input,
+)
 from app.bot.handlers.branch import (
+    BRANCH_MODE_KEY,
+    BRANCH_MODE_LOCATION,
+    BRANCH_MODE_TEXT,
     handle_branch_action,
     handle_branch_location_input,
     handle_branch_text_input,
@@ -23,6 +35,7 @@ from app.bot.handlers.menu import handle_menu_action
 from app.bot.handlers.navigation import handle_navigation_action
 from app.bot.handlers.start import start_command
 from app.config.constants import (
+    ATM_CALLBACK_PREFIX,
     BRANCH_CALLBACK_PREFIX,
     FAQ_CALLBACK_PREFIX,
     LANGUAGE_CALLBACK_PREFIX,
@@ -47,6 +60,30 @@ async def on_shutdown(application: Application) -> None:
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     logger.exception("Unhandled exception while processing update.", exc_info=context.error)
+
+
+async def route_text_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    mode = context.user_data.get(BRANCH_MODE_KEY)
+    if mode == BRANCH_MODE_TEXT:
+        await handle_branch_text_input(update, context)
+        return
+
+    mode = context.user_data.get(ATM_MODE_KEY)
+    if mode == ATM_MODE_TEXT:
+        await handle_atm_text_input(update, context)
+        return
+
+
+async def route_location_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    mode = context.user_data.get(BRANCH_MODE_KEY)
+    if mode == BRANCH_MODE_LOCATION:
+        await handle_branch_location_input(update, context)
+        return
+
+    mode = context.user_data.get(ATM_MODE_KEY)
+    if mode == ATM_MODE_LOCATION:
+        await handle_atm_location_input(update, context)
+        return
 
 
 def build_application(bot_token: str) -> Application:
@@ -84,6 +121,12 @@ def build_application(bot_token: str) -> Application:
     )
     application.add_handler(
         CallbackQueryHandler(
+            handle_atm_action,
+            pattern=rf"^{ATM_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
             handle_navigation_action,
             pattern=rf"^{NAV_CALLBACK_PREFIX}",
         )
@@ -95,9 +138,9 @@ def build_application(bot_token: str) -> Application:
         )
     )
 
-    application.add_handler(MessageHandler(filters.LOCATION, handle_branch_location_input))
+    application.add_handler(MessageHandler(filters.LOCATION, route_location_input))
     application.add_handler(
-        MessageHandler(filters.TEXT & ~filters.COMMAND, handle_branch_text_input)
+        MessageHandler(filters.TEXT & ~filters.COMMAND, route_text_input)
     )
 
     application.add_error_handler(error_handler)

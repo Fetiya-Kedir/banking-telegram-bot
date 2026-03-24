@@ -5,6 +5,7 @@ import logging
 from telegram import Update
 from telegram.ext import ContextTypes
 
+from app.bot.handlers.atm import clear_atm_state
 from app.bot.handlers.branch import clear_branch_state
 from app.bot.handlers.menu import build_main_menu_text
 from app.bot.keyboards.menu import main_menu_keyboard
@@ -25,6 +26,7 @@ async def handle_language_selection(
     await query.answer()
 
     clear_branch_state(context)
+    clear_atm_state(context)
 
     raw_data = query.data or ""
     _, selected_language = raw_data.split(":", maxsplit=1)
