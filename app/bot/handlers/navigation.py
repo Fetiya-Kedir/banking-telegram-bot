@@ -3,37 +3,15 @@ from __future__ import annotations
 from telegram import Update
 from telegram.ext import ContextTypes
 
+from app.bot.handlers.menu import build_main_menu_text
 from app.bot.i18n.translator import t
+from app.bot.keyboards.language import language_keyboard
 from app.bot.keyboards.menu import main_menu_keyboard
-from app.config.constants import (
-    MENU_ABOUT,
-    MENU_ATM,
-    MENU_BRANCH,
-    MENU_CONTACT,
-    MENU_FAQ,
-    MENU_SUPPORT,
-)
+from app.config.constants import NAV_CHANGE_LANGUAGE, NAV_HOME
 from app.services.user_service import get_user_language
 
 
-MENU_RESPONSE_KEYS = {
-    MENU_BRANCH: "FEATURE_BRANCH_PLACEHOLDER",
-    MENU_ATM: "FEATURE_ATM_PLACEHOLDER",
-    MENU_FAQ: "FEATURE_FAQ_PLACEHOLDER",
-    MENU_SUPPORT: "FEATURE_SUPPORT_PLACEHOLDER",
-    MENU_ABOUT: "FEATURE_ABOUT_PLACEHOLDER",
-    MENU_CONTACT: "FEATURE_CONTACT_PLACEHOLDER",
-}
-
-
-def build_main_menu_text(lang: str, display_name: str) -> str:
-    return (
-        f"{t(lang, 'WELCOME_MAIN_MENU').format(name=display_name)}\n\n"
-        f"{t(lang, 'MAIN_MENU_PROMPT')}"
-    )
-
-
-async def handle_menu_action(
+async def handle_navigation_action(
     update: Update,
     context: ContextTypes.DEFAULT_TYPE,
 ) -> None:
@@ -56,9 +34,17 @@ async def handle_menu_action(
     raw_data = query.data or ""
     _, action = raw_data.split(":", maxsplit=1)
 
-    response_key = MENU_RESPONSE_KEYS.get(action, "UNKNOWN_ACTION")
+    if action == NAV_CHANGE_LANGUAGE:
+        await query.edit_message_text(
+            text=t(lang, "LANGUAGE_PROMPT"),
+            reply_markup=language_keyboard(),
+        )
+        return
 
-    await query.edit_message_text(
-        text=t(lang, response_key),
-        reply_markup=main_menu_keyboard(lang),
-    )
+    if action == NAV_HOME:
+        display_name = update.effective_user.first_name or "there"
+        await query.edit_message_text(
+            text=build_main_menu_text(lang, display_name),
+            reply_markup=main_menu_keyboard(lang),
+        )
+        return

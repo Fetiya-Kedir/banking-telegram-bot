@@ -5,7 +5,7 @@ import logging
 from telegram import Update
 from telegram.ext import ContextTypes
 
-from app.config.settings import get_settings
+from app.bot.keyboards.language import language_keyboard
 from app.services.user_service import upsert_telegram_user
 
 logger = logging.getLogger(__name__)
@@ -15,7 +15,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if update.effective_user is None or update.message is None:
         return
 
-    settings = get_settings()
+    settings = context.application.bot_data["settings"]
     session_factory = context.application.bot_data["session_factory"]
 
     async with session_factory() as session:
@@ -29,6 +29,12 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     logger.info("User %s started the bot.", user.telegram_user_id)
 
+    text = (
+        f"Hello, {display_name}!\n\n"
+        "Please choose your language / ቋንቋ ይምረጡ / Afaan filadhu:"
+    )
+
     await update.message.reply_text(
-        f"Hello, {display_name}! {settings.app_name} is running successfully."
+        text=text,
+        reply_markup=language_keyboard(),
     )

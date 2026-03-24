@@ -2,10 +2,20 @@ from __future__ import annotations
 
 import logging
 
-from telegram import Update
-from telegram.ext import Application, ApplicationBuilder, CommandHandler, ContextTypes
+from telegram.ext import (
+    Application,
+    ApplicationBuilder,
+    CallbackQueryHandler,
+    CommandHandler,
+    ContextTypes,
+)
 
+from app.bot.handlers.language import handle_language_selection
+from app.bot.handlers.menu import handle_menu_action
+from app.bot.handlers.navigation import handle_navigation_action
 from app.bot.handlers.start import start_command
+from app.config.constants import LANGUAGE_CALLBACK_PREFIX, MENU_CALLBACK_PREFIX, NAV_CALLBACK_PREFIX
+from app.config.settings import get_settings
 from app.db.session import AsyncSessionLocal, close_db, init_db
 
 logger = logging.getLogger(__name__)
@@ -26,6 +36,8 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 
 
 def build_application(bot_token: str) -> Application:
+    settings = get_settings()
+
     application = (
         ApplicationBuilder()
         .token(bot_token)
@@ -34,9 +46,29 @@ def build_application(bot_token: str) -> Application:
         .build()
     )
 
+    application.bot_data["settings"] = settings
     application.bot_data["session_factory"] = AsyncSessionLocal
 
     application.add_handler(CommandHandler("start", start_command))
+    application.add_handler(
+        CallbackQueryHandler(
+            handle_language_selection,
+            pattern=rf"^{LANGUAGE_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
+            handle_navigation_action,
+            pattern=rf"^{NAV_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
+            handle_menu_action,
+            pattern=rf"^{MENU_CALLBACK_PREFIX}",
+        )
+    )
+
     application.add_error_handler(error_handler)
 
     return application

@@ -51,3 +51,10 @@ class UserRepository:
         await self.session.commit()
         await self.session.refresh(user)
         return user
+
+    async def update_language(self, user: User, language_code_selected: str) -> User:
+        user.language_code_selected = language_code_selected
+
+        await self.session.commit()
+        await self.session.refresh(user)
+        return user

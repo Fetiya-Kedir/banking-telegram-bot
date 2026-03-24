@@ -6,7 +6,7 @@ from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-SUPPORTED_LANGUAGES = {"en", "am", "or"}
+SUPPORTED_LANGUAGES = {"en", "am", "om"}
 SUPPORTED_LOG_LEVELS = {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}
 
 
