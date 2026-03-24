@@ -1,0 +1,7 @@
+python-telegram-bot
+SQLAlchemy
+asyncpg
+alembic
+pydantic
+pydantic-settings
+python-dotenv
