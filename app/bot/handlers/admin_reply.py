@@ -9,11 +9,19 @@ from app.db.repositories.support_repo import SupportRepository
 from app.services.user_service import get_user_language
 
 
-def build_user_support_reply_text(lang: str, reply_text: str) -> str:
-    return (
-        f"{t(lang, 'SUPPORT_RESPONSE_TITLE')}\n\n"
-        f"{reply_text}"
-    )
+def build_user_support_reply_text(
+    lang: str,
+    reply_text: str,
+    ticket_code: str | None = None,
+) -> str:
+    lines = [t(lang, "SUPPORT_RESPONSE_TITLE"), ""]
+
+    if ticket_code:
+        lines.append(t(lang, "SUPPORT_RESPONSE_REFERENCE").format(ticket_code=ticket_code))
+        lines.append("")
+
+    lines.append(reply_text)
+    return "\n".join(lines)
 
 
 async def handle_admin_reply(
@@ -58,11 +66,13 @@ async def handle_admin_reply(
         )
 
         ticket = await repo.get_ticket_by_id(mapping.ticket_id)
+        ticket_code = ticket.ticket_code if ticket is not None else None
+
         if ticket is not None:
             await repo.mark_ticket_answered(ticket)
 
     await context.bot.send_message(
         chat_id=mapping.user_telegram_id,
-        text=build_user_support_reply_text(lang, admin_reply_text),
+        text=build_user_support_reply_text(lang, admin_reply_text, ticket_code),
         reply_markup=support_confirmation_keyboard(lang),
     )

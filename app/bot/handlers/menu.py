@@ -3,8 +3,10 @@ from __future__ import annotations
 from telegram import Update
 from telegram.ext import ContextTypes
 
+from app.bot.handlers.about import show_about_screen
 from app.bot.handlers.atm import clear_atm_state, show_atm_menu_screen
 from app.bot.handlers.branch import clear_branch_state, show_branch_menu_screen
+from app.bot.handlers.contact import show_contact_screen
 from app.bot.handlers.faq import show_faq_categories_screen
 from app.bot.handlers.support import clear_support_state, show_support_prompt_screen
 from app.bot.i18n.translator import t
@@ -18,12 +20,6 @@ from app.config.constants import (
     MENU_SUPPORT,
 )
 from app.services.user_service import get_user_language
-
-
-MENU_RESPONSE_KEYS = {
-    MENU_ABOUT: "FEATURE_ABOUT_PLACEHOLDER",
-    MENU_CONTACT: "FEATURE_CONTACT_PLACEHOLDER",
-}
 
 
 def build_main_menu_text(lang: str, display_name: str) -> str:
@@ -76,9 +72,15 @@ async def handle_menu_action(
         await show_support_prompt_screen(update, context, lang=lang)
         return
 
-    response_key = MENU_RESPONSE_KEYS.get(action, "UNKNOWN_ACTION")
+    if action == MENU_ABOUT:
+        await show_about_screen(update, context, lang=lang)
+        return
+
+    if action == MENU_CONTACT:
+        await show_contact_screen(update, context, lang=lang)
+        return
 
     await query.edit_message_text(
-        text=t(lang, response_key),
+        text=t(lang, "UNKNOWN_ACTION"),
         reply_markup=main_menu_keyboard(lang),
     )

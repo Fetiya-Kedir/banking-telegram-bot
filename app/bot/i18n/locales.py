@@ -290,16 +290,81 @@ MESSAGES = {
         "am": "⚠️ የድጋፍ አገልግሎቱ ለጊዜው ተቋርጧል። እባክዎ ጥቂት ቆይተው ደግመው ይሞክሩ።",
         "om": "⚠️ Tajaajilli deeggarsaa yeroo gabaabaaf addaan citeera. Maaloo yeroo muraasa booda irra deebi'aatii yaalaa.",
     },
-    "FEATURE_ABOUT_PLACEHOLDER": {
-        "en": "About Us section is coming in a later phase.",
-        "am": "ስለ እኛ የሚገልጸው ክፍል በቅርቡ ይካተታል።",
-        "om": "Kutaan waa'ee keenya ibsu dhiyeenyatti ni dhiyaata.",
+    "ABOUT_TITLE": {
+    "en": "ℹ️ About Us",
+    "am": "ℹ️ ስለ እኛ",
+    "om": "ℹ️ Waa'ee Keenya"
+  },
+  "ABOUT_BODY": {
+    "en": "{bank_name} is the first bank to get a license from the National bank of Ethiopia to operate as a full-fledged Interest-Free Bank in the country. The bank is established to enhance financial inclusion with a special focus on the part of society that is alienated from the financial system due to their religious beliefs or other factors.",
+    "am": "{bank_name} በኢትዮጵያ ውስጥ የመጀመሪያው ሙሉ በሙሉ ከወለድ ነፃ የባንክ አገልግሎት እንዲሰጥ በኢትዮጵያ ብሔራዊ ባንክ ፈቃድ የተሰጠው የመጀመሪያው ባንክ ነው። ባንኩ የተመሰረተው የፋይናንስ ተጠቃሚነትን ለማሳደግ ሲሆን፣ በተለይም በሃይማኖታዊ እምነታቸው ወይም በሌሎች ምክንያቶች ከፋይናንስ ሥርዓቱ ተገልለው የቆዩ የህብረተሰብ ክፍሎች ላይ ትኩረት አድርጎ ይሰራል።",
+    "om": "{bank_name} Itoophiyaa keessatti baankii jalqabaa hojii baankii guutumaan guututti dhala irra bilisa ta’e akka hojjetu Baankii Biyyooleessa Itoophiyaa irraa hayyamni kennameefidha. Baankichi hirmaannaa faayinaansii guddisuuf kan hundeeffame si'a ta'u, keessumattuu kutaa hawaasaa sababa amantii yookiin sababa birootiin sirna faayinaansii irraa fagaatanii turan irratti xiyyeeffannoo addaa kenna."
+  },
+  "ABOUT_WEBSITE_NOTE": {
+    "en": "Use the button below to visit the official website.",
+    "am": "ኦፊሻላዊ ድህረ ገጻችንን ለመጎብኘት ከታች ያለውን ቁልፍ ይጠቀሙ።",
+    "om": "Marsaalee oofishiyaalaa keenya daawwachuuf qaree armaan gadii fayyadamaa."
+  },
+  "CONTACT_TITLE": {
+    "en": "📞 Contact Us",
+    "am": "📞 ያግኙን",
+    "om": "📞 Nu Quunnamaa"
+  },
+  "CONTACT_BODY": {
+    "en": "Use the official contact channels below.",
+    "am": "እባክዎ ከታች ያሉትን ኦፊሻላዊ የመገናኛ መንገዶች ይጠቀሙ።",
+    "om": "Maaloo karaalee quunnamtii oofishiyaalaa armaan gadii fayyadamaa."
+  },
+  "CONTACT_PHONE_LABEL": {
+    "en": "Phone",
+    "am": "ስልክ",
+    "om": "Bilbila"
+  },
+  "CONTACT_EMAIL_LABEL": {
+    "en": "Email",
+    "am": "ኢሜይል",
+    "om": "Imeelii"
+  },
+  "CONTACT_WEBSITE_LABEL": {
+    "en": "🌐 Website",
+    "am": "🌐 ድህረ ገጽ",
+    "om": "🌐 Marsariitii"
+  },
+  "CONTACT_TELEGRAM_LABEL": {
+    "en": "📨 Telegram",
+    "am": "📨 ቴሌግራም (Telegram)",
+    "om": "📨 Telegiraamii"
+  },
+  "CONTACT_FACEBOOK_LABEL": {
+    "en": "📘 Facebook",
+    "am": "📘 ፌስቡክ (Facebook)",
+    "om": "📘 Feesbuukii"
+  },
+  "CONTACT_INSTAGRAM_LABEL": {
+    "en": "📸 Instagram",
+    "am": "📸 ኢንስታግራም (Instagram)",
+    "om": "📸 Instagiraamii"
+  },
+     "CONTACT_TIKTOK_LABEL": {
+        "en": "🎵 TikTok",
+        "am": "🎵 TikTok",
+        "om": "🎵 TikTok",
     },
-    "FEATURE_CONTACT_PLACEHOLDER": {
-        "en": "Contact section is coming in a later phase.",
-        "am": "የመገኛ መረጃዎች በቅርቡ ይካተታሉ።",
-        "om": "Kutaan quunnamtii dhiyeenyatti ni dhiyaata.",
+    "CONTACT_YOUTUBE_LABEL": {
+        "en": "▶️ YouTube",
+        "am": "▶️ YouTube",
+        "om": "▶️ YouTube",
     },
+    "CONTACT_LINKEDIN_LABEL": {
+        "en": "💼 LinkedIn",
+        "am": "💼 LinkedIn",
+        "om": "💼 LinkedIn",
+    },
+  "SUPPORT_RESPONSE_REFERENCE": {
+    "en": "Reference: {ticket_code}",
+    "am": "የመለያ ቁጥር (Reference)፦ {ticket_code}",
+    "om": "Lakkoolsa ragaa (Reference): {ticket_code}"
+  },
     "UNKNOWN_ACTION": {
         "en": "Unknown action.",
         "am": "ያልታወቀ ትዕዛዝ።",

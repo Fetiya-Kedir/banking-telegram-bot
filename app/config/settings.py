@@ -30,6 +30,34 @@ class Settings(BaseSettings):
     support_enabled: bool = Field(True, alias="SUPPORT_ENABLED")
     app_name: str = Field("Banking Telegram Bot", alias="APP_NAME")
 
+    bank_name: str = Field("Our Bank", alias="BANK_NAME")
+    bank_phone: str | None = Field(None, alias="BANK_PHONE")
+    bank_support_email: str | None = Field(None, alias="BANK_SUPPORT_EMAIL")
+    bank_telegram_url: str | None = Field(None, alias="BANK_TELEGRAM_URL")
+    bank_facebook_url: str | None = Field(None, alias="BANK_FACEBOOK_URL")
+    bank_instagram_url: str | None = Field(None, alias="BANK_INSTAGRAM_URL")
+    bank_tiktok_url: str | None = Field(None, alias="BANK_TIKTOK_URL")
+    bank_youtube_url: str | None = Field(None, alias="BANK_YOUTUBE_URL")
+    bank_linkedin_url: str | None = Field(None, alias="BANK_LINKEDIN_URL")
+
+    @field_validator(
+        "bank_phone",
+        "bank_support_email",
+        "bank_telegram_url",
+        "bank_facebook_url",
+        "bank_instagram_url",
+        "bank_tiktok_url",
+        "bank_youtube_url",
+        "bank_linkedin_url",
+        mode="before",
+    )
+    @classmethod
+    def normalize_blank_optionals(cls, value):
+        if value is None:
+            return None
+        value = str(value).strip()
+        return value or None
+
     @field_validator("bot_token")
     @classmethod
     def validate_bot_token(cls, value: str) -> str:
@@ -64,6 +92,22 @@ class Settings(BaseSettings):
             raise ValueError("BANK_WEBSITE cannot be empty")
         if not (value.startswith("http://") or value.startswith("https://")):
             raise ValueError("BANK_WEBSITE must start with http:// or https://")
+        return value
+
+    @field_validator(
+        "bank_telegram_url",
+        "bank_facebook_url",
+        "bank_instagram_url",
+        "bank_tiktok_url",
+        "bank_youtube_url",
+        "bank_linkedin_url",
+    )
+    @classmethod
+    def validate_optional_urls(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        if not (value.startswith("http://") or value.startswith("https://")):
+            raise ValueError("Optional social URLs must start with http:// or https://")
         return value
 
     @field_validator("default_language")
