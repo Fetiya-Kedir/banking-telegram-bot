@@ -6,18 +6,20 @@ from app.config.constants import FAQ_CALLBACK_PREFIX, NAV_CALLBACK_PREFIX, NAV_H
 from app.schemas.faq import FAQCategory
 
 
-def faq_categories_keyboard(lang: str, categories: list[FAQCategory]) -> InlineKeyboardMarkup:
-    rows: list[list[InlineKeyboardButton]] = []
+def chunk_buttons(buttons: list[InlineKeyboardButton], size: int = 2) -> list[list[InlineKeyboardButton]]:
+    return [buttons[i:i + size] for i in range(0, len(buttons), size)]
 
-    for category in categories:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    category.title.model_dump()[lang],
-                    callback_data=f"{FAQ_CALLBACK_PREFIX}category:{category.id}",
-                )
-            ]
+
+def faq_categories_keyboard(lang: str, categories: list[FAQCategory]) -> InlineKeyboardMarkup:
+    buttons = [
+        InlineKeyboardButton(
+            category.title.model_dump()[lang],
+            callback_data=f"{FAQ_CALLBACK_PREFIX}category:{category.id}",
         )
+        for category in categories
+    ]
+
+    rows = chunk_buttons(buttons, size=2)
 
     rows.extend(
         navigation_rows(

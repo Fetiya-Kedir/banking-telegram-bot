@@ -4,6 +4,10 @@ from app.bot.i18n.translator import t
 from app.config.constants import NAV_CALLBACK_PREFIX, NAV_CHANGE_LANGUAGE, NAV_HOME
 
 
+def chunk_buttons(buttons: list[InlineKeyboardButton], size: int = 2) -> list[list[InlineKeyboardButton]]:
+    return [buttons[i:i + size] for i in range(0, len(buttons), size)]
+
+
 def about_keyboard(lang: str, website_url: str) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
@@ -36,6 +40,7 @@ def contact_keyboard(
     telegram_url: str | None = None,
     facebook_url: str | None = None,
     instagram_url: str | None = None,
+    x_url: str | None = None,
     tiktok_url: str | None = None,
     youtube_url: str | None = None,
     linkedin_url: str | None = None,
@@ -51,66 +56,65 @@ def contact_keyboard(
         ]
     ]
 
+    social_buttons: list[InlineKeyboardButton] = []
+
     if telegram_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_TELEGRAM_LABEL"),
-                    url=telegram_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_TELEGRAM_LABEL"),
+                url=telegram_url,
+            )
         )
 
     if facebook_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_FACEBOOK_LABEL"),
-                    url=facebook_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_FACEBOOK_LABEL"),
+                url=facebook_url,
+            )
         )
 
     if instagram_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_INSTAGRAM_LABEL"),
-                    url=instagram_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_INSTAGRAM_LABEL"),
+                url=instagram_url,
+            )
         )
 
+    if x_url:
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_X_LABEL"),
+                url=x_url,
+            )
+        )
 
     if tiktok_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_TIKTOK_LABEL"),
-                    url=tiktok_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_TIKTOK_LABEL"),
+                url=tiktok_url,
+            )
         )
 
     if youtube_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_YOUTUBE_LABEL"),
-                    url=youtube_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_YOUTUBE_LABEL"),
+                url=youtube_url,
+            )
         )
 
     if linkedin_url:
-        rows.append(
-            [
-                InlineKeyboardButton(
-                    t(lang, "CONTACT_LINKEDIN_LABEL"),
-                    url=linkedin_url,
-                )
-            ]
+        social_buttons.append(
+            InlineKeyboardButton(
+                t(lang, "CONTACT_LINKEDIN_LABEL"),
+                url=linkedin_url,
+            )
         )
+
+    rows.extend(chunk_buttons(social_buttons, size=2))
 
     rows.append(
         [
