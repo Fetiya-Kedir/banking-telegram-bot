@@ -245,10 +245,50 @@ MESSAGES = {
         "am": "ቀሪ ሂሳብ ማየት",
         "om": "Hafe Herregaa Ilaaluu",
     },
-    "FEATURE_SUPPORT_PLACEHOLDER": {
-        "en": "Human support workflow is coming in a later phase.",
-        "am": "የባለሙያ ድጋፍ በቅርቡ ይካተታል።",
-        "om": "Deeggarsi ogeessaa dhiyeenyatti ni dhiyaata.",
+    "SUPPORT_PROMPT_TITLE": {
+        "en": "💬 Ask a Question",
+        "am": "💬 ጥያቄ ለመጠየቅ",
+        "om": "💬 Gaaffii Gaafachuuf",
+    },
+    "SUPPORT_PROMPT_BODY": {
+        "en": "Please type your question in one message. Our support team will receive it.",
+        "am": "እባክዎ ጥያቄዎን በአንድ መልዕክት ብቻ አጠቃልለው ይጻፉ። የድጋፍ ቡድናችን መልዕክቱን ተቀብሎ ምላሽ ይሰጥዎታል።",
+        "om": "Maaloo gaaffii keessan ergaa tokko qofa keessatti gabaabsaatii barreessaa. Gareen deeggarsaa keenya isin quunnama.",
+    },
+    "SUPPORT_PROMPT_HINT": {
+        "en": "Example: How can I reset my ATM PIN?",
+        "am": "ለምሳሌ፦ የኤቲኤም (ATM) ሚስጥር ቁጥር (PIN) እንዴት መቀየር እችላለሁ?",
+        "om": "Fakkeenyaaf: Akkamittan lakkoolsa iccitii (PIN) ATM koo jijjiiruu danda'a?",
+    },
+    "SUPPORT_SENT_TITLE": {
+        "en": "✅ Your question has been sent to support.",
+        "am": "✅ ጥያቄዎ ለድጋፍ ቡድናችን በትክክል ተልኳል።",
+        "om": "✅ Gaaffiin keessan garee deeggarsaatti sirriitti ergameera.",
+    },
+    "SUPPORT_REFERENCE": {
+        "en": "Reference: {ticket_code}",
+        "am": "የመለያ ቁጥር (Reference)፦ {ticket_code}",
+        "om": "Lakkoolsa ragaa (Reference): {ticket_code}",
+    },
+    "SUPPORT_WAIT_RESPONSE": {
+        "en": "An agent will respond through the bot.",
+        "am": "ባለሙያዎቻችን በዚሁ በቦቱ በኩል ምላሽ ይሰጡዎታል።",
+        "om": "Ogeessi keenya karaa botii kanaan deebii isiniif kenna.",
+    },
+    "SUPPORT_ASK_ANOTHER": {
+        "en": "💬 Ask Another Question",
+        "am": "💬 ሌላ ጥያቄ ለመጠየቅ",
+        "om": "💬 Gaaffii Biroo Gaafachuuf",
+    },
+    "SUPPORT_RESPONSE_TITLE": {
+        "en": "💬 Support Response",
+        "am": "💬 ከድጋፍ ቡድኑ የተሰጠ ምላሽ",
+        "om": "💬 Deebii Garee Deeggarsaa",
+    },
+        "SUPPORT_TEMP_UNAVAILABLE": {
+        "en": "⚠️ Support is temporarily unavailable. Please try again later.",
+        "am": "⚠️ የድጋፍ አገልግሎቱ ለጊዜው ተቋርጧል። እባክዎ ጥቂት ቆይተው ደግመው ይሞክሩ።",
+        "om": "⚠️ Tajaajilli deeggarsaa yeroo gabaabaaf addaan citeera. Maaloo yeroo muraasa booda irra deebi'aatii yaalaa.",
     },
     "FEATURE_ABOUT_PLACEHOLDER": {
         "en": "About Us section is coming in a later phase.",

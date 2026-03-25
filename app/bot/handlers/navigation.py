@@ -6,6 +6,7 @@ from telegram.ext import ContextTypes
 from app.bot.handlers.atm import clear_atm_state
 from app.bot.handlers.branch import clear_branch_state
 from app.bot.handlers.menu import build_main_menu_text
+from app.bot.handlers.support import clear_support_state
 from app.bot.i18n.translator import t
 from app.bot.keyboards.language import language_keyboard
 from app.bot.keyboards.menu import main_menu_keyboard
@@ -25,6 +26,7 @@ async def handle_navigation_action(
 
     clear_branch_state(context)
     clear_atm_state(context)
+    clear_support_state(context)
 
     settings = context.application.bot_data["settings"]
     session_factory = context.application.bot_data["session_factory"]

@@ -13,6 +13,7 @@ from telegram.ext import (
     filters,
 )
 
+from app.bot.handlers.admin_reply import handle_admin_reply
 from app.bot.handlers.atm import (
     ATM_MODE_KEY,
     ATM_MODE_LOCATION,
@@ -34,6 +35,12 @@ from app.bot.handlers.language import handle_language_selection
 from app.bot.handlers.menu import handle_menu_action
 from app.bot.handlers.navigation import handle_navigation_action
 from app.bot.handlers.start import start_command
+from app.bot.handlers.support import (
+    SUPPORT_MODE_AWAITING_QUESTION,
+    SUPPORT_MODE_KEY,
+    handle_support_action,
+    handle_support_question_input,
+)
 from app.config.constants import (
     ATM_CALLBACK_PREFIX,
     BRANCH_CALLBACK_PREFIX,
@@ -41,6 +48,7 @@ from app.config.constants import (
     LANGUAGE_CALLBACK_PREFIX,
     MENU_CALLBACK_PREFIX,
     NAV_CALLBACK_PREFIX,
+    SUPPORT_CALLBACK_PREFIX,
 )
 from app.config.settings import get_settings
 from app.db.session import AsyncSessionLocal, close_db, init_db
@@ -71,6 +79,11 @@ async def route_text_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     mode = context.user_data.get(ATM_MODE_KEY)
     if mode == ATM_MODE_TEXT:
         await handle_atm_text_input(update, context)
+        return
+
+    mode = context.user_data.get(SUPPORT_MODE_KEY)
+    if mode == SUPPORT_MODE_AWAITING_QUESTION:
+        await handle_support_question_input(update, context)
         return
 
 
@@ -127,6 +140,12 @@ def build_application(bot_token: str) -> Application:
     )
     application.add_handler(
         CallbackQueryHandler(
+            handle_support_action,
+            pattern=rf"^{SUPPORT_CALLBACK_PREFIX}",
+        )
+    )
+    application.add_handler(
+        CallbackQueryHandler(
             handle_navigation_action,
             pattern=rf"^{NAV_CALLBACK_PREFIX}",
         )
@@ -138,6 +157,12 @@ def build_application(bot_token: str) -> Application:
         )
     )
 
+    application.add_handler(
+        MessageHandler(
+            filters.Chat(chat_id=settings.admin_group_id) & filters.TEXT,
+            handle_admin_reply,
+        )
+    )
     application.add_handler(MessageHandler(filters.LOCATION, route_location_input))
     application.add_handler(
         MessageHandler(filters.TEXT & ~filters.COMMAND, route_text_input)

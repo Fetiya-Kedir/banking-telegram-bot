@@ -8,6 +8,7 @@ from telegram.ext import ContextTypes
 from app.bot.handlers.atm import clear_atm_state
 from app.bot.handlers.branch import clear_branch_state
 from app.bot.handlers.menu import build_main_menu_text
+from app.bot.handlers.support import clear_support_state
 from app.bot.keyboards.menu import main_menu_keyboard
 from app.config.constants import SUPPORTED_LANGUAGES
 from app.services.user_service import set_user_language
@@ -27,6 +28,7 @@ async def handle_language_selection(
 
     clear_branch_state(context)
     clear_atm_state(context)
+    clear_support_state(context)
 
     raw_data = query.data or ""
     _, selected_language = raw_data.split(":", maxsplit=1)

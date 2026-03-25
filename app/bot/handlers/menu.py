@@ -6,6 +6,7 @@ from telegram.ext import ContextTypes
 from app.bot.handlers.atm import clear_atm_state, show_atm_menu_screen
 from app.bot.handlers.branch import clear_branch_state, show_branch_menu_screen
 from app.bot.handlers.faq import show_faq_categories_screen
+from app.bot.handlers.support import clear_support_state, show_support_prompt_screen
 from app.bot.i18n.translator import t
 from app.bot.keyboards.menu import main_menu_keyboard
 from app.config.constants import (
@@ -20,7 +21,6 @@ from app.services.user_service import get_user_language
 
 
 MENU_RESPONSE_KEYS = {
-    MENU_SUPPORT: "FEATURE_SUPPORT_PLACEHOLDER",
     MENU_ABOUT: "FEATURE_ABOUT_PLACEHOLDER",
     MENU_CONTACT: "FEATURE_CONTACT_PLACEHOLDER",
 }
@@ -58,6 +58,7 @@ async def handle_menu_action(
 
     clear_branch_state(context)
     clear_atm_state(context)
+    clear_support_state(context)
 
     if action == MENU_FAQ:
         await show_faq_categories_screen(update, context, lang=lang)
@@ -69,6 +70,10 @@ async def handle_menu_action(
 
     if action == MENU_ATM:
         await show_atm_menu_screen(update, context, lang=lang)
+        return
+
+    if action == MENU_SUPPORT:
+        await show_support_prompt_screen(update, context, lang=lang)
         return
 
     response_key = MENU_RESPONSE_KEYS.get(action, "UNKNOWN_ACTION")
