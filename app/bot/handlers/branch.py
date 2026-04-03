@@ -27,10 +27,16 @@ BRANCH_MODE_LOCATION = "awaiting_branch_location"
 RESULT_SEPARATOR = "\n────────────────────────\n"
 
 
+def clear_location_request_message_id(
+    context: ContextTypes.DEFAULT_TYPE,
+) -> None:
+    context.user_data.pop(LOCATION_REQUEST_MESSAGE_ID_KEY, None)
+
 
 def clear_branch_state(context: ContextTypes.DEFAULT_TYPE) -> None:
     context.user_data.pop(BRANCH_MODE_KEY, None)
     clear_location_request_message_id(context)
+
 
 def set_location_request_message_id(
     context: ContextTypes.DEFAULT_TYPE,
@@ -45,11 +51,6 @@ def get_location_request_message_id(
     return context.user_data.get(LOCATION_REQUEST_MESSAGE_ID_KEY)
 
 
-def clear_location_request_message_id(
-    context: ContextTypes.DEFAULT_TYPE,
-) -> None:
-    context.user_data.pop(LOCATION_REQUEST_MESSAGE_ID_KEY, None)
-
 def set_active_menu_message_id(
     context: ContextTypes.DEFAULT_TYPE,
     message_id: int,
@@ -59,23 +60,6 @@ def set_active_menu_message_id(
 
 def get_active_menu_message_id(context: ContextTypes.DEFAULT_TYPE) -> int | None:
     return context.user_data.get(ACTIVE_MENU_MESSAGE_ID_KEY)
-
-
-async def safe_delete_active_menu_message(
-    update: Update,
-    context: ContextTypes.DEFAULT_TYPE,
-) -> None:
-    message_id = get_active_menu_message_id(context)
-    if message_id is None or update.effective_chat is None:
-        return
-
-    try:
-        await context.bot.delete_message(
-            chat_id=update.effective_chat.id,
-            message_id=message_id,
-        )
-    except BadRequest:
-        pass
 
 
 def build_branch_menu_text(lang: str) -> str:
@@ -88,7 +72,7 @@ def build_branch_menu_text(lang: str) -> str:
 def build_branch_text_prompt(lang: str) -> str:
     return (
         f"{t(lang, 'BRANCH_MENU_TITLE')}\n\n"
-        f"{t(lang, 'BRANCH_TEXT_PROMPT')}\n"
+        f"{t(lang, 'BRANCH_TEXT_PROMPT')}\n\n"
         f"{t(lang, 'BRANCH_TEXT_HINT')}"
     )
 
@@ -96,7 +80,7 @@ def build_branch_text_prompt(lang: str) -> str:
 def build_branch_location_prompt(lang: str) -> str:
     return (
         f"{t(lang, 'BRANCH_MENU_TITLE')}\n\n"
-        f"{t(lang, 'BRANCH_LOCATION_PROMPT')}\n"
+        f"{t(lang, 'BRANCH_LOCATION_PROMPT')}\n\n"
         f"{t(lang, 'BRANCH_LOCATION_HINT')}"
     )
 
@@ -149,19 +133,23 @@ def build_branch_search_results_text(lang: str, branches: list) -> str:
     if not branches:
         return t(lang, "BRANCH_NO_RESULTS")
 
+    intro = t(lang, "BRANCH_SEARCH_RESULTS_TITLE")
     entries = [format_branch_entry(branch, lang) for branch in branches]
-    return RESULT_SEPARATOR.join(entries)
+
+    return f"{intro}\n\n{RESULT_SEPARATOR.join(entries)}"
 
 
 def build_branch_nearby_results_text(lang: str, branches_with_distance: list[tuple]) -> str:
     if not branches_with_distance:
         return t(lang, "BRANCH_NO_RESULTS")
 
+    intro = t(lang, "BRANCH_NEARBY_RESULTS_TITLE")
     entries = [
         format_branch_entry(branch, lang, distance)
         for branch, distance in branches_with_distance
     ]
-    return RESULT_SEPARATOR.join(entries)
+
+    return f"{intro}\n\n{RESULT_SEPARATOR.join(entries)}"
 
 
 async def show_branch_menu_screen(
@@ -267,11 +255,9 @@ async def handle_branch_text_input(
         limit=settings.max_nearest_results,
     )
 
-    clear_branch_state(context)
+    old_message_id = get_active_menu_message_id(context)
 
     result_text = build_branch_search_results_text(lang, results)
-
-    old_message_id = get_active_menu_message_id(context)
 
     result_message = await update.message.reply_text(
         text=result_text,
@@ -280,6 +266,7 @@ async def handle_branch_text_input(
     )
 
     set_active_menu_message_id(context, result_message.message_id)
+    clear_branch_state(context)
 
     if old_message_id is not None and update.effective_chat is not None:
         try:
@@ -320,13 +307,8 @@ async def handle_branch_location_input(
     old_message_id = get_active_menu_message_id(context)
     request_message_id = get_location_request_message_id(context)
 
-    # Delete the user's location map message
-    try:
-        await update.message.delete()
-    except BadRequest:
-        pass
+    # Keep the user's location message visible for better conversation context.
 
-    # Delete the temporary "Use the location button below..." message
     if request_message_id is not None and update.effective_chat is not None:
         try:
             await context.bot.delete_message(
@@ -336,14 +318,12 @@ async def handle_branch_location_input(
         except BadRequest:
             pass
 
-    # Send a temporary keyboard-removal message
     cleanup_message = await context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="…",
         reply_markup=ReplyKeyboardRemove(),
     )
 
-    # Send the real results message
     result_text = build_branch_nearby_results_text(lang, results)
 
     result_message = await context.bot.send_message(
@@ -356,7 +336,6 @@ async def handle_branch_location_input(
     set_active_menu_message_id(context, result_message.message_id)
     clear_branch_state(context)
 
-    # Delete the old branch menu / prompt message
     if old_message_id is not None and update.effective_chat is not None:
         try:
             await context.bot.delete_message(
@@ -366,7 +345,6 @@ async def handle_branch_location_input(
         except BadRequest:
             pass
 
-    # Give Telegram client a moment to apply keyboard removal, then delete the temp cleanup message
     await asyncio.sleep(0.4)
     try:
         await cleanup_message.delete()

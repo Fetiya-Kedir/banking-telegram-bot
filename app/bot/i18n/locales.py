@@ -1,13 +1,13 @@
 MESSAGES = {
     "LANGUAGE_PROMPT": {
-        "en": "Please choose your language:",
-        "am": "እባክዎ ቋንቋዎን ይምረጡ፡",
-        "om": "Maaloo afaan keessan filadhaa:",
+        "en": "👉Please choose your language\n👉እባክዎ ቋንቋዎን ይምረጡ\n👉Maaloo afaan keessan filadhaa",
+        "am": "👉Please choose your language\n👉እባክዎ ቋንቋዎን ይምረጡ\n👉Maaloo afaan keessan filadhaa",
+        "om": "👉Please choose your language\n👉እባክዎ ቋንቋዎን ይምረጡ\n👉Maaloo afaan keessan filadhaa",
     },
     "WELCOME_MAIN_MENU": {
-        "en": "Welcome, {name}!",
-        "am": "እንኳን ደህና መጡ፣ {name}!",
-        "om": "Baga nagaan dhuftan, {name}!",
+        "en": "Welcome, {name}. How may I assist you today?",
+        "am": "እንኳን ደህና መጡ {name}። ዛሬ በምን ልረዳዎት እችላለሁ?",
+        "om": "Baga nagaan dhuftan {name}. Har'a akkamitti isin gargaaruu danda'a?",
     },
     "MAIN_MENU_PROMPT": {
         "en": "Please choose a service below.",
@@ -94,8 +94,7 @@ MESSAGES = {
         "am": "የተፈለገው መረጃ አልተገኘም።",
         "om": "Odeeffannoon FAQ barbaadame hin argamne.",
     },
-
-   "BRANCH_MENU_TITLE": {
+    "BRANCH_MENU_TITLE": {
         "en": "📍 Branch Finder",
         "am": "📍 ቅርንጫፍ መፈለጊያ",
         "om": "📍 Damee Barbaaduuf",
@@ -146,14 +145,14 @@ MESSAGES = {
         "om": "Teessoon keessan nu gaheera.",
     },
     "BRANCH_SEARCH_RESULTS_TITLE": {
-        "en": "Matching Branches",
-        "am": "ተዛማጅ ቅርንጫፎች",
-        "om": "Dameewwan Walsiman",
+        "en": "Here are the branches that match your search.",
+        "am": "ከፍለጋዎ ጋር የሚዛመዱ ቅርንጫፎች የሚከተሉት ናቸው።",
+        "om": "Dameewwan barbaacha keessan waliin deeman kanneen i dha.",
     },
     "BRANCH_NEARBY_RESULTS_TITLE": {
-        "en": "Nearest Branches",
-        "am": "በአቅራቢያ የሚገኙ ቅርንጫፎች",
-        "om": "Dameewwan Isinitti Dhihoo",
+        "en": "Here are the nearest branches based on your location.",
+        "am": "በአቅራቢያዎ የሚገኙ ቅርንጫፎች የሚከተሉት ናቸው።",
+        "om": "Bakka isin jirtanitti dhiyeenya kan qaban dameewwan kanneen i dha.",
     },
     "BRANCH_NO_RESULTS": {
         "en": "No matching branches were found.",
@@ -161,9 +160,9 @@ MESSAGES = {
         "om": "Dameen walsimu hin argamne.",
     },
     "BACK_TO_BRANCH_MENU": {
-    "en": "⬅️ Branch Menu",
-    "am": "⬅️ ወደ ቅርንጫፍ ማውጫ",
-    "om": "⬅️ Gara Baafata Dameetti",
+        "en": "⬅️ Branch Menu",
+        "am": "⬅️ ወደ ቅርንጫፍ ማውጫ",
+        "om": "⬅️ Gara Baafata Dameetti",
     },
     "BACK_TO_ATM_MENU": {
         "en": "⬅️ ATM Menu",
@@ -216,15 +215,15 @@ MESSAGES = {
         "om": "📍 Bakka Jiru Ergi",
     },
     "ATM_SEARCH_RESULTS_TITLE": {
-        "en": "Matching ATMs",
-        "am": "ተዛማጅ ኤቲኤሞች",
-        "om": "ATMwwan Walsiman",
-    },
-    "ATM_NEARBY_RESULTS_TITLE": {
-        "en": "Nearest ATMs",
-        "am": "በአቅራቢያ የሚገኙ ኤቲኤሞች",
-        "om": "ATMwwan Isinitti Dhihoo",
-    },
+    "en": "Here are the ATMs that match your search.",
+    "am": "ከፍለጋዎ ጋር የሚዛመዱ ኤቲኤምዎች (ATMs) የሚከተሉት ናቸው።",
+    "om": "ATM-wwan barbaacha keessan waliin deeman kanneen i dha."
+  },
+  "ATM_NEARBY_RESULTS_TITLE": {
+    "en": "Here are the nearest ATMs based on your location.",
+    "am": "በአቅራቢያዎ የሚገኙ ኤቲኤምዎች (ATMs) የሚከተሉት ናቸው።",
+    "om": "Bakka isin jirtanitti dhiyeenya kan qaban ATM-wwan kanneen i dha."
+  },
     "ATM_NO_RESULTS": {
         "en": "No matching ATMs were found.",
         "am": "ምንም ተዛማጅ ኤቲኤም አልተገኘም።",
@@ -285,67 +284,51 @@ MESSAGES = {
         "am": "💬 ከድጋፍ ቡድኑ የተሰጠ ምላሽ",
         "om": "💬 Deebii Garee Deeggarsaa",
     },
-        "SUPPORT_TEMP_UNAVAILABLE": {
+    "SUPPORT_TEMP_UNAVAILABLE": {
         "en": "⚠️ Support is temporarily unavailable. Please try again later.",
         "am": "⚠️ የድጋፍ አገልግሎቱ ለጊዜው ተቋርጧል። እባክዎ ጥቂት ቆይተው ደግመው ይሞክሩ።",
         "om": "⚠️ Tajaajilli deeggarsaa yeroo gabaabaaf addaan citeera. Maaloo yeroo muraasa booda irra deebi'aatii yaalaa.",
     },
-    "ABOUT_TITLE": {
-    "en": "ℹ️ About Us",
-    "am": "ℹ️ ስለ እኛ",
-    "om": "ℹ️ Waa'ee Keenya"
-  },
-  "ABOUT_BODY": {
-    "en": "{bank_name} is the first bank to get a license from the National bank of Ethiopia to operate as a full-fledged Interest-Free Bank in the country. The bank is established to enhance financial inclusion with a special focus on the part of society that is alienated from the financial system due to their religious beliefs or other factors.",
-    "am": "{bank_name} በኢትዮጵያ ውስጥ የመጀመሪያው ሙሉ በሙሉ ከወለድ ነፃ የባንክ አገልግሎት እንዲሰጥ በኢትዮጵያ ብሔራዊ ባንክ ፈቃድ የተሰጠው የመጀመሪያው ባንክ ነው። ባንኩ የተመሰረተው የፋይናንስ ተጠቃሚነትን ለማሳደግ ሲሆን፣ በተለይም በሃይማኖታዊ እምነታቸው ወይም በሌሎች ምክንያቶች ከፋይናንስ ሥርዓቱ ተገልለው የቆዩ የህብረተሰብ ክፍሎች ላይ ትኩረት አድርጎ ይሰራል።",
-    "om": "{bank_name} Itoophiyaa keessatti baankii jalqabaa hojii baankii guutumaan guututti dhala irra bilisa ta’e akka hojjetu Baankii Biyyooleessa Itoophiyaa irraa hayyamni kennameefidha. Baankichi hirmaannaa faayinaansii guddisuuf kan hundeeffame si'a ta'u, keessumattuu kutaa hawaasaa sababa amantii yookiin sababa birootiin sirna faayinaansii irraa fagaatanii turan irratti xiyyeeffannoo addaa kenna."
-  },
-  "ABOUT_WEBSITE_NOTE": {
-    "en": "Use the button below to visit the official website.",
-    "am": "ኦፊሻላዊ ድህረ ገጻችንን ለመጎብኘት ከታች ያለውን ቁልፍ ይጠቀሙ።",
-    "om": "Marsaalee oofishiyaalaa keenya daawwachuuf qaree armaan gadii fayyadamaa."
-  },
-  "CONTACT_TITLE": {
-    "en": "📞 Contact Us",
-    "am": "📞 ያግኙን",
-    "om": "📞 Nu Quunnamaa"
-  },
-  "CONTACT_BODY": {
-    "en": "Use the official contact channels below.",
-    "am": "እባክዎ ከታች ያሉትን ኦፊሻላዊ የመገናኛ መንገዶች ይጠቀሙ።",
-    "om": "Maaloo karaalee quunnamtii oofishiyaalaa armaan gadii fayyadamaa."
-  },
-  "CONTACT_PHONE_LABEL": {
-    "en": "Phone",
-    "am": "ስልክ",
-    "om": "Bilbila"
-  },
-  "CONTACT_EMAIL_LABEL": {
-    "en": "Email",
-    "am": "ኢሜይል",
-    "om": "Imeelii"
-  },
-  "CONTACT_WEBSITE_LABEL": {
-    "en": "🌐 Website",
-    "am": "🌐 ድህረ ገጽ",
-    "om": "🌐 Marsariitii"
-  },
-  "CONTACT_TELEGRAM_LABEL": {
-    "en": "📨 Telegram",
-    "am": "📨 ቴሌግራም (Telegram)",
-    "om": "📨 Telegiraamii"
-  },
-  "CONTACT_FACEBOOK_LABEL": {
-    "en": "📘 Facebook",
-    "am": "📘 ፌስቡክ (Facebook)",
-    "om": "📘 Feesbuukii"
-  },
-  "CONTACT_INSTAGRAM_LABEL": {
-    "en": "📸 Instagram",
-    "am": "📸 ኢንስታግራም (Instagram)",
-    "om": "📸 Instagiraamii"
-  },
-     "CONTACT_TIKTOK_LABEL": {
+    "ABOUT_TITLE": {"en": "ℹ️ About Us", "am": "ℹ️ ስለ እኛ", "om": "ℹ️ Waa'ee Keenya"},
+    "ABOUT_BODY": {
+        "en": "{bank_name} is the first bank to get a license from the National bank of Ethiopia to operate as a full-fledged Interest-Free Bank in the country. The bank is established to enhance financial inclusion with a special focus on the part of society that is alienated from the financial system due to their religious beliefs or other factors.",
+        "am": "{bank_name} በኢትዮጵያ ውስጥ የመጀመሪያው ሙሉ በሙሉ ከወለድ ነፃ የባንክ አገልግሎት እንዲሰጥ በኢትዮጵያ ብሔራዊ ባንክ ፈቃድ የተሰጠው የመጀመሪያው ባንክ ነው። ባንኩ የተመሰረተው የፋይናንስ ተጠቃሚነትን ለማሳደግ ሲሆን፣ በተለይም በሃይማኖታዊ እምነታቸው ወይም በሌሎች ምክንያቶች ከፋይናንስ ሥርዓቱ ተገልለው የቆዩ የህብረተሰብ ክፍሎች ላይ ትኩረት አድርጎ ይሰራል።",
+        "om": "{bank_name} Itoophiyaa keessatti baankii jalqabaa hojii baankii guutumaan guututti dhala irra bilisa ta’e akka hojjetu Baankii Biyyooleessa Itoophiyaa irraa hayyamni kennameefidha. Baankichi hirmaannaa faayinaansii guddisuuf kan hundeeffame si'a ta'u, keessumattuu kutaa hawaasaa sababa amantii yookiin sababa birootiin sirna faayinaansii irraa fagaatanii turan irratti xiyyeeffannoo addaa kenna.",
+    },
+    "ABOUT_WEBSITE_NOTE": {
+        "en": "Use the button below to visit the official website.",
+        "am": "ኦፊሻላዊ ድህረ ገጻችንን ለመጎብኘት ከታች ያለውን ቁልፍ ይጠቀሙ።",
+        "om": "Marsaalee oofishiyaalaa keenya daawwachuuf qaree armaan gadii fayyadamaa.",
+    },
+    "CONTACT_TITLE": {"en": "📞 Contact Us", "am": "📞 ያግኙን", "om": "📞 Nu Quunnamaa"},
+    "CONTACT_BODY": {
+        "en": "Use the official contact channels below.",
+        "am": "እባክዎ ከታች ያሉትን ኦፊሻላዊ የመገናኛ መንገዶች ይጠቀሙ።",
+        "om": "Maaloo karaalee quunnamtii oofishiyaalaa armaan gadii fayyadamaa.",
+    },
+    "CONTACT_PHONE_LABEL": {"en": "Phone", "am": "ስልክ", "om": "Bilbila"},
+    "CONTACT_EMAIL_LABEL": {"en": "Email", "am": "ኢሜይል", "om": "Imeelii"},
+    "CONTACT_WEBSITE_LABEL": {
+        "en": "🌐 Website",
+        "am": "🌐 ድህረ ገጽ",
+        "om": "🌐 Marsariitii",
+    },
+    "CONTACT_TELEGRAM_LABEL": {
+        "en": "📨 Telegram",
+        "am": "📨 ቴሌግራም (Telegram)",
+        "om": "📨 Telegiraamii",
+    },
+    "CONTACT_FACEBOOK_LABEL": {
+        "en": "📘 Facebook",
+        "am": "📘 ፌስቡክ (Facebook)",
+        "om": "📘 Feesbuukii",
+    },
+    "CONTACT_INSTAGRAM_LABEL": {
+        "en": "📸 Instagram",
+        "am": "📸 ኢንስታግራም (Instagram)",
+        "om": "📸 Instagiraamii",
+    },
+    "CONTACT_TIKTOK_LABEL": {
         "en": "🎵 TikTok",
         "am": "🎵 TikTok",
         "om": "🎵 TikTok",
@@ -360,11 +343,11 @@ MESSAGES = {
         "am": "💼 LinkedIn",
         "om": "💼 LinkedIn",
     },
-  "SUPPORT_RESPONSE_REFERENCE": {
-    "en": "Reference: {ticket_code}",
-    "am": "የመለያ ቁጥር (Reference)፦ {ticket_code}",
-    "om": "Lakkoolsa ragaa (Reference): {ticket_code}"
-  },
+    "SUPPORT_RESPONSE_REFERENCE": {
+        "en": "Reference: {ticket_code}",
+        "am": "የመለያ ቁጥር (Reference)፦ {ticket_code}",
+        "om": "Lakkoolsa ragaa (Reference): {ticket_code}",
+    },
     "UNKNOWN_ACTION": {
         "en": "Unknown action.",
         "am": "ያልታወቀ ትዕዛዝ።",

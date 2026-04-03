@@ -31,7 +31,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     text = (
         f"Hello, {display_name}!\n\n"
-        "Please choose your language / ቋንቋ ይምረጡ / Afaan filadhu:"
+        "👉Please choose your language\n👉እባክዎ ቋንቋዎን ይምረጡ\n👉Maaloo afaan keessan filadhaa"
     )
 
     await update.message.reply_text(
