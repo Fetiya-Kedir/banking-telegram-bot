@@ -66,7 +66,7 @@ def build_atm_menu_text(lang: str) -> str:
 def build_atm_text_prompt(lang: str) -> str:
     return (
         f"{t(lang, 'ATM_MENU_TITLE')}\n\n"
-        f"{t(lang, 'ATM_TEXT_PROMPT')}\n"
+        f"{t(lang, 'ATM_TEXT_PROMPT')}\n\n"
         f"{t(lang, 'ATM_TEXT_HINT')}"
     )
 
@@ -74,7 +74,7 @@ def build_atm_text_prompt(lang: str) -> str:
 def build_atm_location_prompt(lang: str) -> str:
     return (
         f"{t(lang, 'ATM_MENU_TITLE')}\n\n"
-        f"{t(lang, 'ATM_LOCATION_PROMPT')}\n"
+        f"{t(lang, 'ATM_LOCATION_PROMPT')}\n\n"
         f"{t(lang, 'ATM_LOCATION_HINT')}"
     )
 
@@ -120,19 +120,23 @@ def build_atm_search_results_text(lang: str, atms: list) -> str:
     if not atms:
         return t(lang, "ATM_NO_RESULTS")
 
+    intro = t(lang, "ATM_SEARCH_RESULTS_TITLE")
     entries = [format_atm_entry(atm, lang) for atm in atms]
-    return RESULT_SEPARATOR.join(entries)
+
+    return f"{intro}\n\n{RESULT_SEPARATOR.join(entries)}"
 
 
 def build_atm_nearby_results_text(lang: str, atms_with_distance: list[tuple]) -> str:
     if not atms_with_distance:
         return t(lang, "ATM_NO_RESULTS")
 
+    intro = t(lang, "ATM_NEARBY_RESULTS_TITLE")
     entries = [
         format_atm_entry(atm, lang, distance)
         for atm, distance in atms_with_distance
     ]
-    return RESULT_SEPARATOR.join(entries)
+
+    return f"{intro}\n\n{RESULT_SEPARATOR.join(entries)}"
 
 
 async def show_atm_menu_screen(
@@ -290,10 +294,7 @@ async def handle_atm_location_input(
     old_message_id = get_active_atm_menu_message_id(context)
     request_message_id = get_atm_location_request_message_id(context)
 
-    try:
-        await update.message.delete()
-    except BadRequest:
-        pass
+    # Keep the user's location message visible for better conversation context.
 
     if request_message_id is not None and update.effective_chat is not None:
         try:

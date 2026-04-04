@@ -1,16 +1,10 @@
 from __future__ import annotations
 
-from uuid import uuid4
-
 from telegram import Bot, User as TelegramUser
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.models.user import User
 from app.db.repositories.support_repo import SupportRepository
-
-
-def generate_ticket_code() -> str:
-    return f"TKT-{uuid4().hex[:8].upper()}"
 
 
 def build_admin_ticket_message(
@@ -26,7 +20,7 @@ def build_admin_ticket_message(
     ).strip() or telegram_user.first_name or "Unknown User"
 
     return (
-        f"🆕 Support Ticket #{ticket_code}\n\n"
+        f"🆕 Support Ticket {ticket_code}\n\n"
         f"👤 Name: {full_name}\n"
         f"🔗 Username: {username}\n"
         f"🆔 Telegram ID: {telegram_user.id}\n"
@@ -49,7 +43,6 @@ async def create_support_ticket_and_forward(
     repo = SupportRepository(session)
 
     ticket = await repo.create_ticket(
-        ticket_code=generate_ticket_code(),
         user_id=db_user.id,
         user_telegram_id=db_user.telegram_user_id,
         question_text=question_text,

@@ -35,13 +35,13 @@ def support_confirmation_keyboard(lang: str) -> InlineKeyboardMarkup:
             [
                 InlineKeyboardButton(
                     t(lang, "BACK_TO_MAIN_MENU"),
-                    callback_data=f"{NAV_CALLBACK_PREFIX}{NAV_HOME}",
+                    callback_data=f"{SUPPORT_CALLBACK_PREFIX}home",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     t(lang, "CHANGE_LANGUAGE"),
-                    callback_data=f"{NAV_CALLBACK_PREFIX}{NAV_CHANGE_LANGUAGE}",
+                    callback_data=f"{SUPPORT_CALLBACK_PREFIX}change_language",
                 ),
             ],
         ]

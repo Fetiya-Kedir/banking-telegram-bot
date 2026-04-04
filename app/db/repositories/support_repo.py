@@ -1,10 +1,17 @@
 from __future__ import annotations
 
+from uuid import uuid4
+
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.models.support_message_map import SupportMessageMap
+from app.db.models.support_reply import SupportReply
 from app.db.models.support_ticket import SupportTicket
+
+
+def format_ticket_code(ticket_id: int) -> str:
+    return f"TKT-ZZB-{ticket_id:05d}"
 
 
 class SupportRepository:
@@ -14,14 +21,16 @@ class SupportRepository:
     async def create_ticket(
         self,
         *,
-        ticket_code: str,
         user_id: int,
         user_telegram_id: int,
         question_text: str,
         language_code_selected: str,
     ) -> SupportTicket:
+        # Keep the temporary code safely under varchar(32)
+        temporary_code = f"TMP-{uuid4().hex[:12].upper()}"
+
         ticket = SupportTicket(
-            ticket_code=ticket_code,
+            ticket_code=temporary_code,
             user_id=user_id,
             user_telegram_id=user_telegram_id,
             question_text=question_text,
@@ -29,6 +38,10 @@ class SupportRepository:
             status="open",
         )
         self.session.add(ticket)
+        await self.session.flush()
+
+        ticket.ticket_code = format_ticket_code(ticket.id)
+
         await self.session.commit()
         await self.session.refresh(ticket)
         return ticket
@@ -88,3 +101,30 @@ class SupportRepository:
         await self.session.commit()
         await self.session.refresh(ticket)
         return ticket
+
+    async def create_reply(
+        self,
+        *,
+        ticket_id: int,
+        admin_telegram_id: int,
+        admin_username: str | None,
+        admin_name: str | None,
+        reply_text: str,
+        admin_group_chat_id: int,
+        admin_group_message_id: int,
+        sent_to_user_message_id: int | None,
+    ) -> SupportReply:
+        reply = SupportReply(
+            ticket_id=ticket_id,
+            admin_telegram_id=admin_telegram_id,
+            admin_username=admin_username,
+            admin_name=admin_name,
+            reply_text=reply_text,
+            admin_group_chat_id=admin_group_chat_id,
+            admin_group_message_id=admin_group_message_id,
+            sent_to_user_message_id=sent_to_user_message_id,
+        )
+        self.session.add(reply)
+        await self.session.commit()
+        await self.session.refresh(reply)
+        return reply

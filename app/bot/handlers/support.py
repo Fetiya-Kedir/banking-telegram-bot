@@ -5,6 +5,8 @@ from telegram.error import BadRequest, ChatMigrated
 from telegram.ext import ContextTypes
 
 from app.bot.i18n.translator import t
+from app.bot.keyboards.language import language_keyboard
+from app.bot.keyboards.menu import main_menu_keyboard
 from app.bot.keyboards.support import support_confirmation_keyboard, support_prompt_keyboard
 from app.services.support_service import create_support_ticket_and_forward
 from app.services.user_service import get_user_language, upsert_telegram_user
@@ -47,6 +49,23 @@ def build_support_confirmation_text(lang: str, ticket_code: str) -> str:
     )
 
 
+def build_followup_main_menu_text(lang: str, display_name: str) -> str:
+    return (
+        f"{t(lang, 'WELCOME_MAIN_MENU').format(name=display_name)}\n\n"
+        f"{t(lang, 'MAIN_MENU_PROMPT')}"
+    )
+
+
+async def retire_support_message_keyboard(update: Update) -> None:
+    if update.callback_query is None:
+        return
+
+    try:
+        await update.callback_query.edit_message_reply_markup(reply_markup=None)
+    except BadRequest:
+        pass
+
+
 async def show_support_prompt_screen(
     update: Update,
     context: ContextTypes.DEFAULT_TYPE,
@@ -70,7 +89,7 @@ async def handle_support_action(
     update: Update,
     context: ContextTypes.DEFAULT_TYPE,
 ) -> None:
-    if update.callback_query is None or update.effective_user is None:
+    if update.callback_query is None or update.effective_user is None or update.effective_chat is None:
         return
 
     query = update.callback_query
@@ -90,7 +109,41 @@ async def handle_support_action(
     _, action = raw_data.split(":", maxsplit=1)
 
     if action == "ask_again":
-        await show_support_prompt_screen(update, context, lang=lang)
+        clear_support_state(context)
+        context.user_data[SUPPORT_MODE_KEY] = SUPPORT_MODE_AWAITING_QUESTION
+
+        await retire_support_message_keyboard(update)
+
+        prompt_message = await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=build_support_prompt_text(lang),
+            reply_markup=support_prompt_keyboard(lang),
+        )
+        set_active_support_message_id(context, prompt_message.message_id)
+        return
+
+    if action == "home":
+        clear_support_state(context)
+        await retire_support_message_keyboard(update)
+
+        display_name = update.effective_user.first_name or "there"
+
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=build_followup_main_menu_text(lang, display_name),
+            reply_markup=main_menu_keyboard(lang),
+        )
+        return
+
+    if action == "change_language":
+        clear_support_state(context)
+        await retire_support_message_keyboard(update)
+
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=t(lang, "LANGUAGE_PROMPT"),
+            reply_markup=language_keyboard(),
+        )
         return
 
 

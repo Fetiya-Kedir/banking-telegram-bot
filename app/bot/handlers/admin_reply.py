@@ -37,6 +37,9 @@ async def handle_admin_reply(
     if not update.message.text:
         return
 
+    if update.effective_user is None:
+        return
+
     settings = context.application.bot_data["settings"]
     if update.effective_chat.id != settings.admin_group_id:
         return
@@ -68,11 +71,30 @@ async def handle_admin_reply(
         ticket = await repo.get_ticket_by_id(mapping.ticket_id)
         ticket_code = ticket.ticket_code if ticket is not None else None
 
-        if ticket is not None:
-            await repo.mark_ticket_answered(ticket)
-
-    await context.bot.send_message(
+    sent_message = await context.bot.send_message(
         chat_id=mapping.user_telegram_id,
         text=build_user_support_reply_text(lang, admin_reply_text, ticket_code),
         reply_markup=support_confirmation_keyboard(lang),
     )
+
+    admin_name = " ".join(
+        part for part in [update.effective_user.first_name, update.effective_user.last_name] if part
+    ).strip() or update.effective_user.first_name or "Unknown Admin"
+
+    async with session_factory() as session:
+        repo = SupportRepository(session)
+
+        await repo.create_reply(
+            ticket_id=mapping.ticket_id,
+            admin_telegram_id=update.effective_user.id,
+            admin_username=update.effective_user.username,
+            admin_name=admin_name,
+            reply_text=admin_reply_text,
+            admin_group_chat_id=update.effective_chat.id,
+            admin_group_message_id=update.message.message_id,
+            sent_to_user_message_id=sent_message.message_id,
+        )
+
+        ticket = await repo.get_ticket_by_id(mapping.ticket_id)
+        if ticket is not None:
+            await repo.mark_ticket_answered(ticket)
